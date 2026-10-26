@@ -28,7 +28,7 @@ export function Overview() {
   const previous = d.previous?.view ?? null
 
   return (
-    <AppShell title="Overview" description={`SNITCH Creative Intelligence · 28 verified public brand assets · ${dateRange(filters.from, filters.to)}`} filters="period">
+    <AppShell title="Overview" description={`SNITCH Creative Intelligence · 28 public brand assets · ${dateRange(filters.from, filters.to)}`} filters="period">
       {view.rows.every((r) => r.counts === null) ? (
         <EmptyState
           title="No performance records in this period"
@@ -39,8 +39,8 @@ export function Overview() {
         <div className="flex flex-col gap-4">
           <div className="flex flex-wrap items-center justify-between gap-2 rounded-lg border bg-muted/40 px-3.5 py-2 text-xs">
             <span className="flex items-center gap-2">
-              <span className="font-semibold text-foreground">Verified SNITCH Brand Footprint:</span>
-              <span className="text-muted-foreground">14 Meta Ads (Zooptrack / Meta Ad Library) + 14 Product Catalogue Assets (snitch.com)</span>
+              <span className="font-semibold text-foreground">Public SNITCH assets:</span>
+              <span className="text-muted-foreground">14 product images (verified on snitch.com) + 14 ads (third-party ad directory, partially verified)</span>
             </span>
             <span className="text-muted-foreground">
               Campaign metrics: <span className="font-medium text-foreground">Synthetic demo data</span>

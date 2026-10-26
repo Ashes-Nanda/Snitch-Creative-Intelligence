@@ -36,10 +36,10 @@ export function DataQuality() {
               <dt className="text-muted-foreground">Creative assets</dt>
               <dd className="flex flex-wrap items-center gap-1.5">
                 <ProvenanceBadge kind="public-asset" />
-                <span>28 verified public SNITCH assets (14 Meta Ads, 14 Catalogue Products)</span>
+                <span>28 public SNITCH assets: 14 product images verified on snitch.com, 14 ads from a third-party ad directory (partially verified)</span>
               </dd>
               <dt className="text-muted-foreground">Brand provenance</dt>
-              <dd>Official SNITCH product catalog (snitch.com) & Meta Ad Library (Page ID: 236672023872356)</dd>
+              <dd>Product images: official SNITCH product pages (snitch.com). Ads: zooptrack ad directory; not confirmed in the Meta Ad Library</dd>
               <dt className="text-muted-foreground">Creative analysis</dt>
               <dd>
                 <ProvenanceBadge kind="ai" />
