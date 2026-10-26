@@ -53,7 +53,7 @@ function useDashboardState() {
   const [dismissalStore, setDismissalStore] = useState(() => createDismissalStore(localStore(DISMISSALS_KEY), { actor: ACTOR }))
   const [, setVersion] = useState(0)
   const bump = useCallback(() => setVersion((v) => v + 1), [])
-  const [ai, setAi] = useState<AnalysisServerState>({ available: false, configured: false, model: null, problem: null, records: [] })
+  const [ai, setAi] = useState<AnalysisServerState>({ available: false, configured: false, model: null, problem: null, records: [], snapshot: null })
   const [inFlight, setInFlight] = useState<ReadonlySet<string>>(new Set())
 
   const refreshAnalyses = useCallback(async () => setAi(await fetchAnalysisState()), [])
@@ -178,7 +178,7 @@ function useDashboardState() {
     resetDemo,
     /** Merged analysis state for every creative: the single source of truth for pages. */
     analyses,
-    ai: { available: ai.available, configured: ai.configured, model: ai.model, problem: ai.problem },
+    ai: { available: ai.available, configured: ai.configured, model: ai.model, problem: ai.problem, snapshot: ai.snapshot },
     liveRecord: (id: string) => liveRecords.get(id),
     analysisStatus: (id: string): AnalysisDisplayStatus => {
       if (inFlight.has(id) || liveRecords.get(id)?.status === 'processing') return 'processing'

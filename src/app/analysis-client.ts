@@ -32,6 +32,27 @@ export interface AnalysisServerState {
   model: string | null
   problem: string | null
   records: LiveAnalysisRecord[]
+  /** Set when no server answered and recorded results were loaded from the static snapshot instead. */
+  snapshot: { models: string[]; analysedFrom: string | null; analysedTo: string | null } | null
+}
+
+/** Recorded live analyses, published with a static build by `npm run snapshot:analyses`. */
+async function loadSnapshot(): Promise<AnalysisServerState | null> {
+  try {
+    const res = await fetch(`${import.meta.env.BASE_URL}data/ai-analyses-snapshot.json`, { cache: 'no-store' })
+    if (!res.ok || !(res.headers.get('content-type') ?? '').includes('json')) return null
+    const body = (await res.json()) as { models: string[]; analysedFrom: string | null; analysedTo: string | null; records: LiveAnalysisRecord[] }
+    return {
+      available: false,
+      configured: false,
+      model: body.models[0] ?? null,
+      problem: 'This deployment shows recorded results. New analyses run only when the app is started locally with its analysis server.',
+      records: body.records,
+      snapshot: { models: body.models, analysedFrom: body.analysedFrom, analysedTo: body.analysedTo },
+    }
+  } catch {
+    return null
+  }
 }
 
 export type AnalyzeResult = { ok: true; cached: boolean; record: LiveAnalysisRecord } | { ok: false; error: AnalysisErrorInfo; record: LiveAnalysisRecord | null }
@@ -40,9 +61,18 @@ export async function fetchAnalysisState(): Promise<AnalysisServerState> {
   try {
     const res = await fetch('/api/analysis', { cache: 'no-store' })
     if (!res.ok || !(res.headers.get('content-type') ?? '').includes('json')) throw new Error()
-    return { available: true, ...(await res.json()) }
+    return { available: true, snapshot: null, ...(await res.json()) }
   } catch {
-    return { available: false, configured: false, model: null, problem: 'The analysis server is not running. Start the app with npm run dev or npm run preview.', records: [] }
+    return (
+      (await loadSnapshot()) ?? {
+        available: false,
+        configured: false,
+        model: null,
+        problem: 'The analysis server is not running. Start the app with npm run dev or npm run preview.',
+        records: [],
+        snapshot: null,
+      }
+    )
   }
 }
 

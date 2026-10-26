@@ -12,6 +12,7 @@ npm run dev        # http://localhost:5173
 npm test           # 41 domain tests (Vitest)
 npm run build
 npm run fixtures   # regenerate the deterministic demo dataset in public/data
+npm run snapshot:analyses   # copy recorded live analyses into public/data for static deployments
 ```
 
 ## How it is built

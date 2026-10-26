@@ -78,6 +78,18 @@ export function AnalysisControl({ creativeId, size = 'sm' }: { creativeId: strin
 export function AnalysisConfigNotice() {
   const d = useDashboard()
   if (d.ai.available && d.ai.configured) return null
+  const snap = d.ai.snapshot
+  if (snap) {
+    const day = (iso: string | null) => (iso ? new Date(iso).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' }) : null)
+    const range = [day(snap.analysedFrom), day(snap.analysedTo)].filter(Boolean)
+    return (
+      <p role="status" className="mb-3 rounded-lg border border-blue-200 bg-blue-50 px-3 py-2 text-sm text-blue-900">
+        Showing recorded AI image analyses by {snap.models.join(', ') || 'a vision model'}
+        {range.length ? `, run ${[...new Set(range)].join(' – ')}` : ''}. New analyses run only when the app is started locally, so Analyse and Re-analyse are
+        off here.
+      </p>
+    )
+  }
   return (
     <p role="status" className="mb-3 rounded-lg border border-amber-300 bg-amber-50 px-3 py-2 text-sm text-amber-900">
       AI image analysis is unavailable: {d.ai.problem ?? 'the analysis server is not configured.'} Everything else keeps working.
