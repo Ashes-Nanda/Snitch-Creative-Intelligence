@@ -1,0 +1,321 @@
+{
+  "checkedAt": "2026-10-26T17:38:05.454Z",
+  "results": [
+    {
+      "creativeId": "cr-001",
+      "status": "partially_verified",
+      "image": 200,
+      "notes": [
+        "Image found on the third-party ad directory page.",
+        "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+        "Ad copy matches the directory page.",
+        "Price and product attributes are not shown in ads and were dropped."
+      ]
+    },
+    {
+      "creativeId": "cr-002",
+      "status": "partially_verified",
+      "image": 200,
+      "notes": [
+        "Image found on the third-party ad directory page.",
+        "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+        "Ad copy matches the directory page.",
+        "Price and product attributes are not shown in ads and were dropped."
+      ]
+    },
+    {
+      "creativeId": "cr-003",
+      "status": "partially_verified",
+      "image": 200,
+      "notes": [
+        "Image found on the third-party ad directory page.",
+        "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+        "Ad copy matches the directory page.",
+        "Price and product attributes are not shown in ads and were dropped."
+      ]
+    },
+    {
+      "creativeId": "cr-004",
+      "status": "partially_verified",
+      "image": 200,
+      "notes": [
+        "Image found on the third-party ad directory page.",
+        "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+        "Ad copy could not be confirmed, so it was dropped.",
+        "Price and product attributes are not shown in ads and were dropped."
+      ]
+    },
+    {
+      "creativeId": "cr-005",
+      "status": "partially_verified",
+      "image": 200,
+      "notes": [
+        "Image found on the third-party ad directory page.",
+        "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+        "Ad copy matches the directory page.",
+        "Price and product attributes are not shown in ads and were dropped."
+      ]
+    },
+    {
+      "creativeId": "cr-006",
+      "status": "partially_verified",
+      "image": 200,
+      "notes": [
+        "Image found on the third-party ad directory page.",
+        "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+        "Ad copy matches the directory page.",
+        "Price and product attributes are not shown in ads and were dropped."
+      ]
+    },
+    {
+      "creativeId": "cr-007",
+      "status": "partially_verified",
+      "image": 200,
+      "notes": [
+        "Image found on the third-party ad directory page.",
+        "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+        "Ad copy could not be confirmed, so it was dropped.",
+        "Price and product attributes are not shown in ads and were dropped."
+      ]
+    },
+    {
+      "creativeId": "cr-008",
+      "status": "partially_verified",
+      "image": 200,
+      "notes": [
+        "Image found on the third-party ad directory page.",
+        "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+        "Ad copy could not be confirmed, so it was dropped.",
+        "Price and product attributes are not shown in ads and were dropped."
+      ]
+    },
+    {
+      "creativeId": "cr-009",
+      "status": "partially_verified",
+      "image": 200,
+      "notes": [
+        "Image found on the third-party ad directory page.",
+        "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+        "Ad copy could not be confirmed, so it was dropped.",
+        "Price and product attributes are not shown in ads and were dropped."
+      ]
+    },
+    {
+      "creativeId": "cr-010",
+      "status": "partially_verified",
+      "image": 200,
+      "notes": [
+        "Image found on the third-party ad directory page.",
+        "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+        "Ad copy could not be confirmed, so it was dropped.",
+        "Price and product attributes are not shown in ads and were dropped."
+      ]
+    },
+    {
+      "creativeId": "cr-011",
+      "status": "partially_verified",
+      "image": 200,
+      "notes": [
+        "Image found on the third-party ad directory page.",
+        "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+        "Ad copy matches the directory page.",
+        "Price and product attributes are not shown in ads and were dropped."
+      ]
+    },
+    {
+      "creativeId": "cr-012",
+      "status": "partially_verified",
+      "image": 200,
+      "notes": [
+        "Image found on the third-party ad directory page.",
+        "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+        "Ad copy matches the directory page.",
+        "Price and product attributes are not shown in ads and were dropped."
+      ]
+    },
+    {
+      "creativeId": "cr-013",
+      "status": "partially_verified",
+      "image": 200,
+      "notes": [
+        "Image found on the third-party ad directory page.",
+        "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+        "Ad copy could not be confirmed, so it was dropped.",
+        "Price and product attributes are not shown in ads and were dropped."
+      ]
+    },
+    {
+      "creativeId": "cr-014",
+      "status": "unavailable",
+      "image": 404,
+      "notes": [
+        "Image URL returned 404.",
+        "Image found on the third-party ad directory page.",
+        "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+        "Ad copy matches the directory page.",
+        "Price and product attributes are not shown in ads and were dropped."
+      ]
+    },
+    {
+      "creativeId": "cr-015",
+      "status": "verified",
+      "image": 200,
+      "notes": [
+        "Image appears on the product page.",
+        "Name taken from the product page (was “Slim-Fit Stretch Washed Jeans”).",
+        "Listed price read from the product page on 2026-10-26; prices change.",
+        "Earlier researched price (2299) did not match and was replaced.",
+        "Not stated in the product description, so dropped: color “Mid Wash Blue”, fabric “98% Cotton 2% Elastane”."
+      ]
+    },
+    {
+      "creativeId": "cr-016",
+      "status": "verified",
+      "image": 200,
+      "notes": [
+        "Image appears on the product page.",
+        "Name taken from the product page (was “1% Battery Embroidered Regular Fit Shirt”).",
+        "Listed price read from the product page on 2026-10-26; prices change.",
+        "Earlier researched price (1799) did not match and was replaced.",
+        "Not stated in the product description, so dropped: fit “Regular Fit”, color “Pitch Black”, fabric “100% Breathable Cotton”."
+      ]
+    },
+    {
+      "creativeId": "cr-017",
+      "status": "verified",
+      "image": 200,
+      "notes": [
+        "Image appears on the product page.",
+        "Name taken from the product page (was “100% Cotton Oversized Heavyweight T-Shirt”).",
+        "Listed price read from the product page on 2026-10-26; prices change.",
+        "Earlier researched price (1299) did not match and was replaced.",
+        "Not stated in the product description, so dropped: fit “Oversized Fit”, color “Sage Mineral”, fabric “100% Cotton 240 GSM”."
+      ]
+    },
+    {
+      "creativeId": "cr-018",
+      "status": "verified",
+      "image": 200,
+      "notes": [
+        "Image appears on the product page.",
+        "Listed price read from the product page on 2026-10-26; prices change.",
+        "Earlier researched price (2199) did not match and was replaced.",
+        "Not stated in the product description, so dropped: fit “Gurkha Pleated”, fabric “Polyester Viscose Blend”."
+      ]
+    },
+    {
+      "creativeId": "cr-019",
+      "status": "verified",
+      "image": 200,
+      "notes": [
+        "Image appears on the product page.",
+        "Name taken from the product page (was “Floral 100% Viscose Cuban Collar Shirt”).",
+        "Listed price read from the product page on 2026-10-26; prices change.",
+        "Earlier researched price (1899) did not match and was replaced.",
+        "Not stated in the product description, so dropped: fit “Boxy Cuban”, color “Floral Multi”."
+      ]
+    },
+    {
+      "creativeId": "cr-020",
+      "status": "verified",
+      "image": 200,
+      "notes": [
+        "Image appears on the product page.",
+        "Listed price read from the product page on 2026-10-26; prices change.",
+        "Earlier researched price (1999) did not match and was replaced.",
+        "Not stated in the product description, so dropped: color “Navy Stripes”, fabric “Luxe Stretch Cotton”."
+      ]
+    },
+    {
+      "creativeId": "cr-021",
+      "status": "verified",
+      "image": 200,
+      "notes": [
+        "Image appears on the product page.",
+        "Name taken from the product page (was “Black Textured Abstract Studio Shirt”).",
+        "Listed price read from the product page on 2026-10-26; prices change.",
+        "Earlier researched price (1999) did not match and was replaced.",
+        "Not stated in the product description, so dropped: color “Textured Black”, fabric “Jacquard Weave”."
+      ]
+    },
+    {
+      "creativeId": "cr-022",
+      "status": "verified",
+      "image": 200,
+      "notes": [
+        "Image appears on the product page.",
+        "Name taken from the product page (was “Box Fit Textured Stripes Casual Shirt”).",
+        "Listed price read from the product page on 2026-10-26; prices change.",
+        "Earlier researched price (1799) did not match and was replaced.",
+        "Not stated in the product description, so dropped: color “Cream Stripes”, fabric “Textured Cotton”."
+      ]
+    },
+    {
+      "creativeId": "cr-023",
+      "status": "verified",
+      "image": 200,
+      "notes": [
+        "Image appears on the product page.",
+        "Listed price read from the product page on 2026-10-26; prices change.",
+        "Earlier researched price (2499) did not match and was replaced.",
+        "Not stated in the product description, so dropped: fit “Relaxed Fit”, color “Blue Plaid”, fabric “Brushed Flannel Cotton”."
+      ]
+    },
+    {
+      "creativeId": "cr-024",
+      "status": "verified",
+      "image": 200,
+      "notes": [
+        "Image appears on the product page.",
+        "Name taken from the product page (was “Navy Blue Regular Fit Office Shirt”).",
+        "Listed price read from the product page on 2026-10-26; prices change.",
+        "Earlier researched price (1699) did not match and was replaced.",
+        "Not stated in the product description, so dropped: color “Deep Navy”, fabric “100% Giza Cotton”."
+      ]
+    },
+    {
+      "creativeId": "cr-025",
+      "status": "verified",
+      "image": 200,
+      "notes": [
+        "Image appears on the product page.",
+        "Name taken from the product page (was “Kaizen Digital Puff Print Oversized Tee”).",
+        "Listed price read from the product page on 2026-10-26; prices change.",
+        "Earlier researched price (1399) did not match and was replaced.",
+        "Not stated in the product description, so dropped: fit “Oversized Fit”, color “Vintage Black”, fabric “220 GSM Cotton Puff Print”."
+      ]
+    },
+    {
+      "creativeId": "cr-026",
+      "status": "verified",
+      "image": 200,
+      "notes": [
+        "Image appears on the product page.",
+        "Listed price read from the product page on 2026-10-26; prices change.",
+        "Earlier researched price (2199) did not match and was replaced.",
+        "Not stated in the product description, so dropped: color “Olive Taupe”, fabric “Luxe Bi-Stretch Poly-Viscose”."
+      ]
+    },
+    {
+      "creativeId": "cr-027",
+      "status": "verified",
+      "image": 200,
+      "notes": [
+        "Image appears on the product page.",
+        "Listed price read from the product page on 2026-10-26; prices change.",
+        "Earlier researched price (1999) did not match and was replaced.",
+        "Not stated in the product description, so dropped: fit “Relaxed Fit”, color “Ecru / Beige”, fabric “Open Crochet Knit Cotton”."
+      ]
+    },
+    {
+      "creativeId": "cr-028",
+      "status": "verified",
+      "image": 200,
+      "notes": [
+        "Image appears on the product page.",
+        "Listed price read from the product page on 2026-10-26; prices change.",
+        "Not stated in the product description, so dropped: fabric “100% Cotton Bio-Washed”."
+      ]
+    }
+  ]
+}

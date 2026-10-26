@@ -1,0 +1,2602 @@
+{
+  "cr-015": {
+    "creativeId": "cr-015",
+    "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_52204133-3376-40be-8d81-8641ce1b2c03.jpg?v=1783076033",
+    "status": "completed",
+    "current": {
+      "creativeId": "cr-015",
+      "hookType": "product-first",
+      "productVisibility": "Product prominence: dominant. Single full-length studio image of a model cropped from the chest down, standing three-quarter angle with one hand in the jeans pocket, centred on a plain background.",
+      "offerType": null,
+      "ctaType": "none",
+      "visualStyle": "studio",
+      "textDensity": "low",
+      "description": "A model stands against a plain studio background, cropped from chest to feet, wearing dark-wash blue jeans, a maroon and cream colour-block tee with 'GRIT' lettering, and off-white sneakers. A red cord with a baseball charm and keyring hangs from the jeans.",
+      "modelVersion": "anthropic/claude-sonnet-5.5",
+      "createdAt": "2026-10-26T17:46:04.010Z",
+      "productProminence": "dominant",
+      "vision": {
+        "observations": {
+          "format_composition": "Single full-length studio image of a model cropped from the chest down, standing three-quarter angle with one hand in the jeans pocket, centred on a plain background.",
+          "garments": [
+            {
+              "type": "jeans",
+              "colour": "dark blue, washed indigo",
+              "pattern": "solid with whiskering and fade creases",
+              "details": "five-pocket style, straight/tapered leg, visible stitching at the fly and pocket, red and white cord with a baseball charm and keyring hanging from the belt-loop area"
+            },
+            {
+              "type": "t-shirt",
+              "colour": "maroon and cream/off-white colour-block",
+              "pattern": "colour-block with horizontal split",
+              "details": "short sleeves, white bold lettering partially visible reading 'GRIT' on the maroon upper section"
+            },
+            {
+              "type": "sneakers",
+              "colour": "off-white",
+              "pattern": "solid",
+              "details": "low-top lace-up canvas-style shoes with metal eyelets"
+            }
+          ],
+          "product_prominence": "dominant",
+          "people": "one",
+          "background": "Plain light grey-white seamless studio backdrop with soft gradient to the floor",
+          "visual_style": "studio",
+          "visible_text": [
+            "GRIT"
+          ],
+          "offer_text": null,
+          "cta_text": null,
+          "text_density": "low"
+        },
+        "interpretations": {
+          "creative_angle": "A clean e-commerce product shot presenting the dark-wash jeans as a versatile casual staple, styled with a graphic colour-block tee, white sneakers and a playful keychain accessory.",
+          "rationale": "The crop focuses on the jeans from waist to ankle, with the hand-in-pocket pose showing the fit and wash, while the plain studio backdrop and absence of promotional text point to a catalogue-style presentation."
+        },
+        "uncertain": [
+          {
+            "attribute": "fabric composition",
+            "reason": "Cannot be determined from the image; stretch or weight is not visible."
+          },
+          {
+            "attribute": "exact fit name",
+            "reason": "No label or text states the fit; it appears straight/tapered but this is a visual impression."
+          },
+          {
+            "attribute": "exact colour",
+            "reason": "Studio lighting may alter the shade of the indigo wash."
+          },
+          {
+            "attribute": "model face and full outfit",
+            "reason": "The image is cropped at the chest, so the face and top of the tee are not visible."
+          },
+          {
+            "attribute": "price or offers",
+            "reason": "No price or promotional text is shown."
+          }
+        ]
+      }
+    },
+    "lastAttempt": {
+      "at": "2026-10-26T17:45:48.075Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 15941,
+      "outcome": "completed",
+      "attempts": 1,
+      "responseId": "gen-1793036749-NIVhte5OEkatchpu5hot",
+      "usage": {
+        "promptTokens": 3141,
+        "completionTokens": 890,
+        "cost": 0.015182,
+        "cachedPromptTokens": 0
+      },
+      "error": null
+    }
+  },
+  "cr-001": {
+    "creativeId": "cr-001",
+    "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/6c/6ce152113b0395568a1dd82913f09fe840eab9588a7fb09d8bc427cddabd3a9a.webp",
+    "status": "completed",
+    "current": {
+      "creativeId": "cr-001",
+      "hookType": "model-first",
+      "productVisibility": "Product prominence: prominent. Single square image. A standing man occupies the left and centre, with a text block on the right. The background darkens to the right to support the text. The SNITCH QUICK logo sits at the top right and the delivery message sits lower right.",
+      "offerType": null,
+      "ctaType": "none",
+      "visualStyle": "street",
+      "textDensity": "medium",
+      "description": "A curly-haired man in a burgundy button-up shirt and black trousers stands on a street holding a black textured bag and red roses. The right side shows the SNITCH QUICK logo, 'NOW LIVE IN GURUGRAM', 'DATE-READY LOOKS' and 'DELIVERED IN 60 MINS'.",
+      "modelVersion": "anthropic/claude-sonnet-5.5",
+      "createdAt": "2026-10-26T17:52:16.221Z",
+      "productProminence": "prominent",
+      "vision": {
+        "observations": {
+          "format_composition": "Single square image. A standing man occupies the left and centre, with a text block on the right. The background darkens to the right to support the text. The SNITCH QUICK logo sits at the top right and the delivery message sits lower right.",
+          "garments": [
+            {
+              "type": "shirt",
+              "colour": "burgundy / maroon",
+              "pattern": "solid",
+              "details": "Long sleeve, button-up, collared, worn untucked-looking at the hem but mostly tucked at the waist, sleeves down with cuffs buttoned, top button open"
+            },
+            {
+              "type": "trousers",
+              "colour": "black",
+              "pattern": "solid",
+              "details": "Straight, tailored look, worn with a black belt with a metal buckle"
+            },
+            {
+              "type": "bag",
+              "colour": "black",
+              "pattern": "croc-embossed texture",
+              "details": "Large tote or duffel-style bag with top handles, carried in the left hand"
+            }
+          ],
+          "product_prominence": "prominent",
+          "people": "one",
+          "background": "Outdoor urban street: grey concrete wall, kerb and asphalt road, with a gradient darkening to the right",
+          "visual_style": "street",
+          "visible_text": [
+            "SNITCH",
+            "QUICK",
+            "NOW LIVE IN",
+            "GURUGRAM",
+            "DATE-READY LOOKS",
+            "DELIVERED IN",
+            "60 MINS"
+          ],
+          "offer_text": null,
+          "cta_text": null,
+          "text_density": "medium"
+        },
+        "interpretations": {
+          "creative_angle": "Announces the launch of a quick-delivery service (SNITCH QUICK) in Gurugram, positioning outfits for dates as arriving within 60 minutes. The burgundy shirt and roses frame the offer around last-minute date outfits.",
+          "rationale": "Based on the headline 'DATE-READY LOOKS DELIVERED IN 60 MINS', the 'NOW LIVE IN GURUGRAM' line, the bouquet of red roses in the model's hand, and the polished shirt-and-trousers styling."
+        },
+        "uncertain": [
+          {
+            "attribute": "fabric of shirt and trousers",
+            "reason": "Not stated in the image; the shirt has a slight sheen but material cannot be confirmed."
+          },
+          {
+            "attribute": "exact colour under lighting",
+            "reason": "Burgundy shade may be affected by photo lighting and grading."
+          },
+          {
+            "attribute": "product names, fits or prices",
+            "reason": "No product details or pricing are shown."
+          },
+          {
+            "attribute": "video or motion content",
+            "reason": "Only a single static frame is available."
+          },
+          {
+            "attribute": "delivery terms or conditions",
+            "reason": "No fine print is visible about eligibility, areas or timing."
+          }
+        ]
+      }
+    },
+    "lastAttempt": {
+      "at": "2026-10-26T17:52:03.760Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 12467,
+      "outcome": "completed",
+      "attempts": 1,
+      "responseId": "gen-1793037125-pMF5lq8O5j1kmyIEQvdB",
+      "usage": {
+        "promptTokens": 2423,
+        "completionTokens": 983,
+        "cost": 0.014676,
+        "cachedPromptTokens": 0
+      },
+      "error": null
+    }
+  },
+  "cr-002": {
+    "creativeId": "cr-002",
+    "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/1a/1a49f8f9ffc58e3747ab479ba3854f9d41ea25cfb70d2fdc1f904c2b9fe6c35d.webp",
+    "status": "completed",
+    "current": {
+      "creativeId": "cr-002",
+      "hookType": "lifestyle",
+      "productVisibility": "Product prominence: prominent. Single square image of one man leaning against a wooden post in a garden setting, with a blurred foliage foreground. The brand logo sits top right, a headline and product name overlay the lower centre, and an offer badge sits bottom right.",
+      "offerType": "UP TO 15% OFF",
+      "ctaType": "none",
+      "visualStyle": "lifestyle",
+      "textDensity": "low",
+      "description": "A man in sunglasses and a dark green tennis-crest polo leans against a wooden post in a sunlit garden, with the headline 'Day 1 of becoming a better man.' and the label 'TENNIS CLUB POLO'. The SNITCH logo is at top right and an 'UP TO 15% OFF' badge at bottom right.",
+      "modelVersion": "anthropic/claude-sonnet-5.5",
+      "createdAt": "2026-10-26T17:52:27.231Z",
+      "productProminence": "prominent",
+      "vision": {
+        "observations": {
+          "format_composition": "Single square image of one man leaning against a wooden post in a garden setting, with a blurred foliage foreground. The brand logo sits top right, a headline and product name overlay the lower centre, and an offer badge sits bottom right.",
+          "garments": [
+            {
+              "type": "polo shirt",
+              "colour": "dark green",
+              "pattern": "solid, with white/cream tipping on the collar and sleeve cuffs",
+              "details": "Short sleeves, two-button placket, small embroidered tennis crest on the left chest with the text 'TENNIS CLUB' beneath it"
+            },
+            {
+              "type": "trousers",
+              "colour": "light beige/stone",
+              "pattern": "solid",
+              "details": "Only partly visible at the bottom of the frame; hands in pockets"
+            },
+            {
+              "type": "sunglasses",
+              "colour": "dark brown/tortoiseshell",
+              "pattern": null,
+              "details": "Wayfarer-style frames"
+            }
+          ],
+          "product_prominence": "prominent",
+          "people": "one",
+          "background": "Outdoor garden with a rustic wooden post at left, a stone wall, and dense green foliage. Warm golden-hour light, with blurred leaves in the foreground.",
+          "visual_style": "lifestyle",
+          "visible_text": [
+            "SNITCH",
+            "Day 1 of becoming a better man.",
+            "TENNIS CLUB POLO",
+            "UP TO 15% OFF",
+            "TENNIS CLUB"
+          ],
+          "offer_text": "UP TO 15% OFF",
+          "cta_text": null,
+          "text_density": "low"
+        },
+        "interpretations": {
+          "creative_angle": "Aspirational self-improvement and old-money, club-style leisure. The polo is positioned as part of a fresh start or a refined personal identity, with a modest discount added as a secondary incentive.",
+          "rationale": "The headline 'Day 1 of becoming a better man.' pairs with the relaxed, sunlit garden pose and the 'TENNIS CLUB POLO' label. The green polo with its crest and tipping suggests a heritage sport aesthetic, and the small 'UP TO 15% OFF' badge is placed in the corner as a secondary element."
+        },
+        "uncertain": [
+          {
+            "attribute": "fabric",
+            "reason": "The material (e.g. piqué cotton) cannot be established from the image."
+          },
+          {
+            "attribute": "exact colour",
+            "reason": "The warm golden lighting may shift the apparent green and beige tones."
+          },
+          {
+            "attribute": "fit name",
+            "reason": "No fit is stated in the image."
+          },
+          {
+            "attribute": "offer terms",
+            "reason": "The badge does not say which products, dates or conditions apply."
+          },
+          {
+            "attribute": "ad format beyond this frame",
+            "reason": "Cannot tell whether this is a static image or a frame from a video or carousel."
+          },
+          {
+            "attribute": "trousers details",
+            "reason": "Only the top portion of the trousers is visible."
+          }
+        ]
+      }
+    },
+    "lastAttempt": {
+      "at": "2026-10-26T17:52:16.230Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 11002,
+      "outcome": "completed",
+      "attempts": 1,
+      "responseId": "gen-1793037136-qKfEtIXmA38OZEhqERJX",
+      "usage": {
+        "promptTokens": 2423,
+        "completionTokens": 1054,
+        "cost": 0.015386,
+        "cachedPromptTokens": 0
+      },
+      "error": null
+    }
+  },
+  "cr-006": {
+    "creativeId": "cr-006",
+    "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/9d/9db4bf564bf19ed975784a4796f298716a0910732d20c072d0c953ac3ca32ea9.webp",
+    "status": "completed",
+    "current": {
+      "creativeId": "cr-006",
+      "hookType": "model-first",
+      "productVisibility": "Product prominence: prominent. Single square image. A man stands on the left half, shown from the head to just below the hips and legs. Text is stacked on the right half over a dark gradient: logo and location at the top, headline lower down.",
+      "offerType": null,
+      "ctaType": "none",
+      "visualStyle": "street",
+      "textDensity": "medium",
+      "description": "A curly-haired man in a burgundy shirt and black trousers stands on a street holding red roses and a black croc-texture bag. Beside him, text reads 'SNITCH QUICK, NOW LIVE IN BENGALURU, DATE-READY LOOKS DELIVERED IN 60 MINS'.",
+      "modelVersion": "anthropic/claude-sonnet-5.5",
+      "createdAt": "2026-10-26T17:52:38.253Z",
+      "productProminence": "prominent",
+      "vision": {
+        "observations": {
+          "format_composition": "Single square image. A man stands on the left half, shown from the head to just below the hips and legs. Text is stacked on the right half over a dark gradient: logo and location at the top, headline lower down.",
+          "garments": [
+            {
+              "type": "shirt",
+              "colour": "burgundy / deep maroon",
+              "pattern": "solid",
+              "details": "Long sleeve, collared, with a slight sheen. Worn untucked at the front with the top button open and cuffs buttoned."
+            },
+            {
+              "type": "trousers",
+              "colour": "black",
+              "pattern": "solid",
+              "details": "Straight leg, worn with a black belt with a metal buckle."
+            },
+            {
+              "type": "bag",
+              "colour": "black",
+              "pattern": "croc-embossed texture",
+              "details": "Large tote or duffel with top handles, held in his left hand."
+            }
+          ],
+          "product_prominence": "prominent",
+          "people": "one",
+          "background": "Outdoor street or road with a grey concrete wall and kerb at the top and asphalt below. The right side darkens into a black gradient for the text.",
+          "visual_style": "street",
+          "visible_text": [
+            "SNITCH",
+            "QUICK",
+            "NOW LIVE IN",
+            "BENGALURU",
+            "DATE-READY LOOKS",
+            "DELIVERED IN",
+            "60 MINS"
+          ],
+          "offer_text": null,
+          "cta_text": null,
+          "text_density": "medium"
+        },
+        "interpretations": {
+          "creative_angle": "Announces the launch of a fast-delivery service, SNITCH QUICK, in Bengaluru. It positions outfits as ready for a date and delivered within 60 minutes.",
+          "rationale": "The text reads 'NOW LIVE IN BENGALURU' and 'DATE-READY LOOKS DELIVERED IN 60 MINS', with '60 MINS' highlighted in orange. The model holds red roses and wears a smart burgundy shirt with black trousers, which supports the date theme and the idea of last-minute readiness."
+        },
+        "uncertain": [
+          {
+            "attribute": "fabric of shirt",
+            "reason": "The sheen suggests a smooth finish, but the material cannot be confirmed from the image."
+          },
+          {
+            "attribute": "exact shirt colour",
+            "reason": "Lighting and image compression may shift the burgundy tone."
+          },
+          {
+            "attribute": "call to action",
+            "reason": "No button or CTA wording is visible in the image. Any CTA may sit outside the image, for example in the ad copy."
+          },
+          {
+            "attribute": "video or carousel context",
+            "reason": "This is a single frame, so it is unclear whether it is part of a video or a carousel."
+          },
+          {
+            "attribute": "product focus",
+            "reason": "It is unclear whether the shirt or the delivery service is the main thing being promoted. The branding focuses on the service."
+          }
+        ]
+      }
+    },
+    "lastAttempt": {
+      "at": "2026-10-26T17:52:27.235Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 11019,
+      "outcome": "completed",
+      "attempts": 1,
+      "responseId": "gen-1793037147-3fu4O8bdnijE7LvfPzro",
+      "usage": {
+        "promptTokens": 2423,
+        "completionTokens": 1001,
+        "cost": 0.014856,
+        "cachedPromptTokens": 0
+      },
+      "error": null
+    }
+  },
+  "cr-014": {
+    "creativeId": "cr-014",
+    "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/ffa85ea45e8ef1129ef69ada4d10da6dddb16682d34699a0a08b14c3cf3a62d1.webp",
+    "status": "failed",
+    "current": null,
+    "lastAttempt": {
+      "at": "2026-10-26T17:52:38.256Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 2673,
+      "outcome": "failed",
+      "attempts": 0,
+      "responseId": null,
+      "usage": null,
+      "error": {
+        "kind": "image_unavailable",
+        "message": "Image URL returned 404"
+      }
+    }
+  },
+  "cr-016": {
+    "creativeId": "cr-016",
+    "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_11bbaf68-ee08-4178-9071-e554b3eceef1.jpg?v=1784116618",
+    "status": "completed",
+    "current": {
+      "creativeId": "cr-016",
+      "hookType": "product-first",
+      "productVisibility": "Product prominence: dominant. Single full-frame studio image of one model, shown from head to mid-thigh, standing front-facing and centred with both hands in the shorts pockets.",
+      "offerType": null,
+      "ctaType": "none",
+      "visualStyle": "studio",
+      "textDensity": "low",
+      "description": "A male model stands against a plain light studio backdrop in a black long-sleeve button-up shirt with a small '1%' low-battery embroidery on the chest. He wears faded grey denim shorts and keeps his hands in his pockets.",
+      "modelVersion": "anthropic/claude-sonnet-5.5",
+      "createdAt": "2026-10-26T17:52:51.053Z",
+      "productProminence": "dominant",
+      "vision": {
+        "observations": {
+          "format_composition": "Single full-frame studio image of one model, shown from head to mid-thigh, standing front-facing and centred with both hands in the shorts pockets.",
+          "garments": [
+            {
+              "type": "Long-sleeve button-up shirt",
+              "colour": "Black",
+              "pattern": "Solid, with a subtle woven texture visible",
+              "details": "Spread collar, front placket with dark buttons, sleeves rolled to the forearm, top button open, small embroidered low-battery icon with '1%' on the left chest"
+            },
+            {
+              "type": "Denim shorts",
+              "colour": "Washed grey/charcoal",
+              "pattern": "Solid with faded wash",
+              "details": "Knee-length, relaxed straight leg, light unfinished or frayed-look hem, hands in front pockets"
+            }
+          ],
+          "product_prominence": "dominant",
+          "people": "one",
+          "background": "Plain light grey/white seamless studio backdrop with no props",
+          "visual_style": "studio",
+          "visible_text": [
+            "1%"
+          ],
+          "offer_text": null,
+          "cta_text": null,
+          "text_density": "low"
+        },
+        "interpretations": {
+          "creative_angle": "A clean catalogue-style presentation of a black casual shirt with a witty, low-battery embroidered motif, styled with grey denim shorts for a relaxed, understated look.",
+          "rationale": "The shirt fills most of the frame on a neutral backdrop, and the small '1%' battery embroidery is the only graphic detail, suggesting a playful, humorous touch. The rolled sleeves, open collar and hands-in-pockets pose signal a casual styling."
+        },
+        "uncertain": [
+          {
+            "attribute": "Fabric",
+            "reason": "The texture looks slightly crinkled or woven, but the material cannot be confirmed from the image."
+          },
+          {
+            "attribute": "Exact colour",
+            "reason": "Studio lighting may affect how the black and the grey wash appear."
+          },
+          {
+            "attribute": "Fit name",
+            "reason": "No fit labelling is visible; the shirt looks slim to regular, but this is not stated."
+          },
+          {
+            "attribute": "Embroidery details",
+            "reason": "The icon is small, so stitching quality and exact colours cannot be confirmed."
+          },
+          {
+            "attribute": "Price, offer and CTA",
+            "reason": "None are shown in the image; they may appear elsewhere on the page."
+          }
+        ]
+      }
+    },
+    "lastAttempt": {
+      "at": "2026-10-26T17:52:40.931Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 10122,
+      "outcome": "completed",
+      "attempts": 1,
+      "responseId": "gen-1793037161-3sVTamAvTsaBeLIjLq0A",
+      "usage": {
+        "promptTokens": 3141,
+        "completionTokens": 844,
+        "cost": 0.014722,
+        "cachedPromptTokens": 0
+      },
+      "error": null
+    }
+  },
+  "cr-017": {
+    "creativeId": "cr-017",
+    "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MBGSS1233-04-3XL17.jpg?v=1772798074",
+    "status": "completed",
+    "current": {
+      "creativeId": "cr-017",
+      "hookType": "product-first",
+      "productVisibility": "Product prominence: dominant. Single vertical studio image of one model shown from head to upper thigh, standing at a slight angle with both hands in jeans pockets, centred against a plain background.",
+      "offerType": null,
+      "ctaType": "none",
+      "visualStyle": "studio",
+      "textDensity": "low",
+      "description": "A bearded model in black rectangular sunglasses wears a dark green relaxed-fit t-shirt with a small chest logo and dark blue jeans. He stands with his hands in his pockets against a plain light studio background.",
+      "modelVersion": "anthropic/claude-sonnet-5.5",
+      "createdAt": "2026-10-26T17:55:31.675Z",
+      "productProminence": "dominant",
+      "vision": {
+        "observations": {
+          "format_composition": "Single vertical studio image of one model shown from head to upper thigh, standing at a slight angle with both hands in jeans pockets, centred against a plain background.",
+          "garments": [
+            {
+              "type": "short-sleeve crew-neck t-shirt",
+              "colour": "dark green",
+              "pattern": "solid",
+              "details": "Relaxed, boxy silhouette with dropped shoulders and a curved hem. Small tonal logo print at the centre chest. Small woven label on the lower side seam. Ribbed crew neckline."
+            },
+            {
+              "type": "jeans",
+              "colour": "dark blue denim",
+              "pattern": "solid",
+              "details": "Only the top is visible. Gold-toned stitching, hands in front pockets."
+            }
+          ],
+          "product_prominence": "dominant",
+          "people": "one",
+          "background": "Plain light grey/white seamless studio backdrop",
+          "visual_style": "studio",
+          "visible_text": [
+            "SNITCH"
+          ],
+          "offer_text": null,
+          "cta_text": null,
+          "text_density": "low"
+        },
+        "interpretations": {
+          "creative_angle": "A clean catalogue-style presentation of a solid dark green oversized t-shirt, showing how it fits and drapes on the body. It is styled with sunglasses, a wristband and denim for a casual, confident look.",
+          "rationale": "The green t-shirt fills most of the frame against a neutral backdrop. The model's relaxed pose with hands in pockets shows the boxy fit and drop shoulders. There is no promotional text, and the small tonal logo is the only branding."
+        },
+        "uncertain": [
+          {
+            "attribute": "fabric",
+            "reason": "The material cannot be determined from the image."
+          },
+          {
+            "attribute": "exact colour",
+            "reason": "Studio lighting may shift the shade of the green. It looks like a deep bottle or forest green."
+          },
+          {
+            "attribute": "garment back and full length",
+            "reason": "Only the front, angled view is shown. The hem and back details are only partly visible."
+          },
+          {
+            "attribute": "size and fit name",
+            "reason": "No size or fit information is shown. The model's size cannot be established."
+          },
+          {
+            "attribute": "price or offer",
+            "reason": "No price or offer wording appears in the image."
+          }
+        ]
+      }
+    },
+    "lastAttempt": {
+      "at": "2026-10-26T17:55:19.412Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 12271,
+      "outcome": "completed",
+      "attempts": 1,
+      "responseId": "gen-1793037320-k9ehMTtz2BQ13UadfLXG",
+      "usage": {
+        "promptTokens": 3141,
+        "completionTokens": 790,
+        "cost": 0.014182,
+        "cachedPromptTokens": 0
+      },
+      "error": null
+    }
+  },
+  "cr-003": {
+    "creativeId": "cr-003",
+    "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/43/4325f2eeb022af78e785bc4e8f15d646ab537ba91f026669e1ec019e9b019ff7.webp",
+    "status": "completed",
+    "current": {
+      "creativeId": "cr-003",
+      "hookType": "lifestyle",
+      "productVisibility": "Product prominence: secondary. Single vertical frame (likely a video still) of a SNITCH store facade shot from street level. A group of people stands in a row at the entrance. Large bold text overlay sits across the lower-middle of the frame. A billboard sits above the entrance and a store sign above that.",
+      "offerType": null,
+      "ctaType": "none",
+      "visualStyle": "ugc",
+      "textDensity": "low",
+      "description": "A group of people stand in a namaste pose in front of a SNITCH store with a Kannada-script sign and a billboard reading 'YOUR WARDROBE'S NEXT OBSESSION'. Bold overlay text reads 'NAMASKARA BENGALURU'.",
+      "modelVersion": "anthropic/claude-sonnet-5.5",
+      "createdAt": "2026-10-26T17:56:04.282Z",
+      "productProminence": "secondary",
+      "vision": {
+        "observations": {
+          "format_composition": "Single vertical frame (likely a video still) of a SNITCH store facade shot from street level. A group of people stands in a row at the entrance. Large bold text overlay sits across the lower-middle of the frame. A billboard sits above the entrance and a store sign above that.",
+          "garments": [
+            {
+              "type": "denim jacket",
+              "colour": "light blue",
+              "pattern": null,
+              "details": "Worn by the person at far left over a dark top, paired with white trousers"
+            },
+            {
+              "type": "t-shirt",
+              "colour": "black",
+              "pattern": "small logo print on chest on at least one",
+              "details": "Worn by several people in the group; one reads SNITCH on the chest"
+            },
+            {
+              "type": "shirt",
+              "colour": "black, white and grey",
+              "pattern": "plaid/check",
+              "details": "Worn open by a person near the centre over a dark tee"
+            },
+            {
+              "type": "t-shirt",
+              "colour": "rust orange",
+              "pattern": "solid",
+              "details": "Worn by a person right of centre"
+            },
+            {
+              "type": "shirt",
+              "colour": "cream/beige",
+              "pattern": "solid",
+              "details": "Worn by the person at far right with dark trousers"
+            },
+            {
+              "type": "shirt (billboard)",
+              "colour": "mixed blue, pink and teal",
+              "pattern": "graphic/printed",
+              "details": "Shown on three models on the billboard; small and partly blurred"
+            }
+          ],
+          "product_prominence": "secondary",
+          "people": "multiple",
+          "background": "Grey ribbed-panel store facade with a SNITCH sign, a Kannada-script logo, a large billboard and a glass entrance showing mannequins and the interior. Brick-paved ground in the foreground.",
+          "visual_style": "ugc",
+          "visible_text": [
+            "SNITCH",
+            "NAMASKARA",
+            "BENGALURU",
+            "YOUR WARDROBE'S NEXT OBSESSION",
+            "स्निच"
+          ],
+          "offer_text": null,
+          "cta_text": null,
+          "text_density": "low"
+        },
+        "interpretations": {
+          "creative_angle": "A store launch or arrival announcement for Bengaluru, with a staff or team greeting in a local-language welcome.",
+          "rationale": "The overlay text 'NAMASKARA BENGALURU' is paired with people in a namaste pose in front of the SNITCH storefront. The Kannada-script signage and billboard tagline suggest a local launch and a brand-presence message rather than a specific product push."
+        },
+        "uncertain": [
+          {
+            "attribute": "Purpose of the post (store opening vs. other event)",
+            "reason": "The image shows a greeting and a storefront but no explicit opening wording or date."
+          },
+          {
+            "attribute": "Identity of the people",
+            "reason": "It is unclear whether they are staff, influencers or guests."
+          },
+          {
+            "attribute": "Video content beyond this frame",
+            "reason": "Only one still frame is visible, so motion, audio and any later CTA are unknown."
+          },
+          {
+            "attribute": "Fabric and exact colours of garments",
+            "reason": "Garments are small and lit by daylight, and the billboard is partly blurred."
+          },
+          {
+            "attribute": "Offer or CTA",
+            "reason": "None appears in this frame, though one could appear elsewhere in the creative."
+          }
+        ]
+      }
+    },
+    "lastAttempt": {
+      "at": "2026-10-26T17:55:51.332Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 12951,
+      "outcome": "completed",
+      "attempts": 1,
+      "responseId": "gen-1793037351-Vz3VVRPqO2ByFJJrAWZ5",
+      "usage": {
+        "promptTokens": 2837,
+        "completionTokens": 1127,
+        "cost": 0.016944,
+        "cachedPromptTokens": 0
+      },
+      "error": null
+    }
+  },
+  "cr-004": {
+    "creativeId": "cr-004",
+    "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/78/78f74ba9d36c5343ed69b4b995b2d6647bf7012b571ea04ec97a5bde2d3298c2.webp",
+    "status": "completed",
+    "current": {
+      "creativeId": "cr-004",
+      "hookType": "product-first",
+      "productVisibility": "Product prominence: dominant. Single full-frame studio image, vertical crop from chest to feet of one standing model, hands in pockets, centered against a plain backdrop",
+      "offerType": null,
+      "ctaType": "none",
+      "visualStyle": "studio",
+      "textDensity": "none",
+      "description": "A studio shot of a model cropped from chest to feet wearing black cargo jogger trousers with a white drawstring, a light pink hoodie and chunky off-white sneakers, hands in pockets against a plain light backdrop. No text is visible.",
+      "modelVersion": "anthropic/claude-sonnet-5.5",
+      "createdAt": "2026-10-26T17:56:13.308Z",
+      "productProminence": "dominant",
+      "vision": {
+        "observations": {
+          "format_composition": "Single full-frame studio image, vertical crop from chest to feet of one standing model, hands in pockets, centered against a plain backdrop",
+          "garments": [
+            {
+              "type": "cargo jogger-style trousers",
+              "colour": "black",
+              "pattern": "solid",
+              "details": "White drawstring at elasticated waist, flap cargo pocket with button on the side of the thigh, tapered leg ending in a gathered cuff at the ankle"
+            },
+            {
+              "type": "hoodie / sweatshirt",
+              "colour": "light pink",
+              "pattern": "solid",
+              "details": "Ribbed cuffs and kangaroo pocket partially visible at top of frame"
+            },
+            {
+              "type": "sneakers",
+              "colour": "off-white / cream",
+              "pattern": null,
+              "details": "Chunky sole, lace-up, panelled upper"
+            }
+          ],
+          "product_prominence": "dominant",
+          "people": "one",
+          "background": "Plain light grey/white seamless studio backdrop with soft floor shadows",
+          "visual_style": "studio",
+          "visible_text": [],
+          "offer_text": null,
+          "cta_text": null,
+          "text_density": "none"
+        },
+        "interpretations": {
+          "creative_angle": "Clean catalogue-style product showcase of black cargo trousers, emphasising the cut, pocket detailing and casual streetwear styling.",
+          "rationale": "The crop frames the trousers from waist to ankle, filling most of the frame, with no text or offer overlays; the pink hoodie and chunky white sneakers add a casual styling context."
+        },
+        "uncertain": [
+          {
+            "attribute": "fabric",
+            "reason": "Material cannot be determined from the image alone; the surface looks matte but the type is not identifiable"
+          },
+          {
+            "attribute": "fit name",
+            "reason": "No label or text states the fit; it appears tapered but this is not confirmed"
+          },
+          {
+            "attribute": "exact colour",
+            "reason": "Studio lighting may affect the perceived black and pink shades"
+          },
+          {
+            "attribute": "brand presence",
+            "reason": "No logo or SNITCH branding is visible in the frame"
+          },
+          {
+            "attribute": "placement and format",
+            "reason": "Unknown whether this is a feed image, carousel card or video frame"
+          }
+        ]
+      }
+    },
+    "lastAttempt": {
+      "at": "2026-10-26T17:56:04.284Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 9024,
+      "outcome": "completed",
+      "attempts": 1,
+      "responseId": "gen-1793037364-HkHxyLFrNdpsvQveos36",
+      "usage": {
+        "promptTokens": 2699,
+        "completionTokens": 800,
+        "cost": 0.013398,
+        "cachedPromptTokens": 0
+      },
+      "error": null
+    }
+  },
+  "cr-005": {
+    "creativeId": "cr-005",
+    "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/54/548dcbe7dcaa85d6feddd49be54922a6d9f6b7946573d8c217d250607c678ca7.webp",
+    "status": "completed",
+    "current": {
+      "creativeId": "cr-005",
+      "hookType": "product-first",
+      "productVisibility": "Product prominence: dominant. Single close-up studio image, cropped from the head to the mid-torso. The model looks down and to the right, and the knit polo fills most of the frame. No text or graphic overlays.",
+      "offerType": null,
+      "ctaType": "none",
+      "visualStyle": "studio",
+      "textDensity": "none",
+      "description": "A tattooed male model in sunglasses poses against a plain light backdrop, wearing a black wide-ribbed short-sleeve knit polo with an open pointed collar. The image is a tight studio crop with no text.",
+      "modelVersion": "anthropic/claude-sonnet-5.5",
+      "createdAt": "2026-10-26T17:56:21.917Z",
+      "productProminence": "dominant",
+      "vision": {
+        "observations": {
+          "format_composition": "Single close-up studio image, cropped from the head to the mid-torso. The model looks down and to the right, and the knit polo fills most of the frame. No text or graphic overlays.",
+          "garments": [
+            {
+              "type": "short-sleeve polo-style knit top",
+              "colour": "black",
+              "pattern": "wide vertical ribbed texture",
+              "details": "Johnny-collar (open placket-less) neckline with a pointed folded collar, ribbed cuffs on the short sleeves, close body fit appearance"
+            }
+          ],
+          "product_prominence": "dominant",
+          "people": "one",
+          "background": "Plain light grey/white studio backdrop",
+          "visual_style": "studio",
+          "visible_text": [],
+          "offer_text": null,
+          "cta_text": null,
+          "text_density": "none"
+        },
+        "interpretations": {
+          "creative_angle": "Product detail focus on the texture and collar of a black ribbed knit polo, styled with sunglasses and visible tattoos for an edgy, modern casual look.",
+          "rationale": "The tight crop makes the ribbed knit and open collar the main subject. The neutral backdrop keeps attention on the garment, and the sunglasses, earring and tattoos add a styled attitude. There is no text, so the product look carries the message."
+        },
+        "uncertain": [
+          {
+            "attribute": "fabric composition",
+            "reason": "Cannot be determined from the image; only the visual rib texture is visible."
+          },
+          {
+            "attribute": "fit name or size",
+            "reason": "Only a cropped view is shown, so the full fit and length cannot be seen."
+          },
+          {
+            "attribute": "exact colour",
+            "reason": "Studio lighting may affect how the black reads; it could be a very dark shade."
+          },
+          {
+            "attribute": "product name, price or offer",
+            "reason": "No text is present in the image."
+          },
+          {
+            "attribute": "video or carousel context",
+            "reason": "Only a single still frame is provided, so any other content is unknown."
+          }
+        ]
+      }
+    },
+    "lastAttempt": {
+      "at": "2026-10-26T17:56:13.310Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 8608,
+      "outcome": "completed",
+      "attempts": 1,
+      "responseId": "gen-1793037373-LxrQfizQL0w7ALbx3bye",
+      "usage": {
+        "promptTokens": 2699,
+        "completionTokens": 706,
+        "cost": 0.012458,
+        "cachedPromptTokens": 0
+      },
+      "error": null
+    }
+  },
+  "cr-007": {
+    "creativeId": "cr-007",
+    "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/d3/d35384ecf7d04beda7124d31a8c83623e46dfe3f4ba1dbc03565f7c1c8cde848.webp",
+    "status": "completed",
+    "current": {
+      "creativeId": "cr-007",
+      "hookType": "product-first",
+      "productVisibility": "Product prominence: dominant. Single full-length studio image of a model cropped from the chest down, standing front-on and centred against a plain light background. No overlays or collage elements.",
+      "offerType": null,
+      "ctaType": "none",
+      "visualStyle": "studio",
+      "textDensity": "none",
+      "description": "A model photographed from the chest down in a studio wears cream pleated trousers with a waist strap, a navy ribbed long-sleeve top and beige-pink sneakers. The model has visible hand tattoos, rings and bracelets, and there is no text on the image.",
+      "modelVersion": "anthropic/claude-sonnet-5.5",
+      "createdAt": "2026-10-26T17:56:30.513Z",
+      "productProminence": "dominant",
+      "vision": {
+        "observations": {
+          "format_composition": "Single full-length studio image of a model cropped from the chest down, standing front-on and centred against a plain light background. No overlays or collage elements.",
+          "garments": [
+            {
+              "type": "trousers",
+              "colour": "cream / off-white",
+              "pattern": "solid",
+              "details": "Relaxed, tapered leg with a front pleat, a matching tie or belt strap at the waist with a buckle, a visible crease texture and cropped hem length"
+            },
+            {
+              "type": "long-sleeve top",
+              "colour": "navy blue",
+              "pattern": "ribbed texture",
+              "details": "Fitted long sleeves, visible only from the chest down and tucked or sitting at the waist"
+            },
+            {
+              "type": "sneakers",
+              "colour": "beige and blush pink with white soles",
+              "pattern": "colour-blocked",
+              "details": "Lace-up low-top with a chunky sole"
+            }
+          ],
+          "product_prominence": "dominant",
+          "people": "one",
+          "background": "Plain light grey-white studio backdrop with a soft floor shadow",
+          "visual_style": "studio",
+          "visible_text": [],
+          "offer_text": null,
+          "cta_text": null,
+          "text_density": "none"
+        },
+        "interpretations": {
+          "creative_angle": "A clean catalogue-style product showcase of cream pleated, belted trousers styled with a navy top and neutral sneakers, emphasising the silhouette and a casual-smart look.",
+          "rationale": "The trousers fill most of the frame, the crop removes the face to keep focus on the garment, the backdrop is plain, and there is no text, offer or call to action."
+        },
+        "uncertain": [
+          {
+            "attribute": "fabric",
+            "reason": "Material cannot be determined from the image; the creases only suggest a lightweight woven texture."
+          },
+          {
+            "attribute": "exact colour",
+            "reason": "Studio lighting may shift the perceived cream or beige tone."
+          },
+          {
+            "attribute": "fit name",
+            "reason": "No label or text states the fit, and it is only visually described as relaxed and tapered."
+          },
+          {
+            "attribute": "brand presence",
+            "reason": "No logo or branding is visible in the frame."
+          },
+          {
+            "attribute": "ad format and context",
+            "reason": "It is unclear whether this is a static ad or a frame from a video or carousel, or where it is placed."
+          }
+        ]
+      }
+    },
+    "lastAttempt": {
+      "at": "2026-10-26T17:56:21.920Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 8593,
+      "outcome": "completed",
+      "attempts": 1,
+      "responseId": "gen-1793037382-wPriTYnHFkf4GxMrG4IF",
+      "usage": {
+        "promptTokens": 2699,
+        "completionTokens": 825,
+        "cost": 0.013648,
+        "cachedPromptTokens": 0
+      },
+      "error": null
+    }
+  },
+  "cr-008": {
+    "creativeId": "cr-008",
+    "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/73/73b3d264410f93517aa7dc43c72d6888d6409631e30431e5d417ea4d24f35b22.webp",
+    "status": "completed",
+    "current": {
+      "creativeId": "cr-008",
+      "hookType": "product-first",
+      "productVisibility": "Product prominence: dominant. Single portrait-orientation studio image of one male model, shown from head to mid-thigh, centred, with hands in pockets. No text overlays or graphics.",
+      "offerType": null,
+      "ctaType": "none",
+      "visualStyle": "studio",
+      "textDensity": "none",
+      "description": "A tattooed male model with a shaved head and beard stands against a light grey studio backdrop, hands in pockets, wearing a black waffle-knit polo-collar sweater and black drawstring pintuck trousers. No text, offer or call to action appears.",
+      "modelVersion": "anthropic/claude-sonnet-5.5",
+      "createdAt": "2026-10-26T17:56:39.020Z",
+      "productProminence": "dominant",
+      "vision": {
+        "observations": {
+          "format_composition": "Single portrait-orientation studio image of one male model, shown from head to mid-thigh, centred, with hands in pockets. No text overlays or graphics.",
+          "garments": [
+            {
+              "type": "Long-sleeve knit polo sweater",
+              "colour": "Black",
+              "pattern": "Textured waffle or grid knit",
+              "details": "Flat collar with an open V-neck placket, relaxed boxy silhouette, dropped shoulders, ribbed cuffs"
+            },
+            {
+              "type": "Trousers",
+              "colour": "Black",
+              "pattern": "Solid",
+              "details": "Drawstring waist with metal-tipped cords, front pintuck crease, side pockets"
+            }
+          ],
+          "product_prominence": "dominant",
+          "people": "one",
+          "background": "Plain light grey seamless studio backdrop",
+          "visual_style": "studio",
+          "visible_text": [],
+          "offer_text": null,
+          "cta_text": null,
+          "text_density": "none"
+        },
+        "interpretations": {
+          "creative_angle": "A catalogue-style presentation of a black textured knit polo as an elevated, all-black casual look, with the styling carrying the appeal rather than any offer or message.",
+          "rationale": "The sweater fills most of the frame against a clean grey backdrop, the model wears matching black drawstring trousers, and there is no text, offer or call to action. The tattoos, watch and earrings add an edgy styling touch."
+        },
+        "uncertain": [
+          {
+            "attribute": "Fabric/material",
+            "reason": "The knit texture is visible but the fibre content cannot be determined from the image."
+          },
+          {
+            "attribute": "Fit name/size",
+            "reason": "The silhouette looks relaxed, but no fit label or sizing is shown."
+          },
+          {
+            "attribute": "Exact colour",
+            "reason": "The garments look black, but studio lighting could shift the shade slightly."
+          },
+          {
+            "attribute": "Ad format/placement",
+            "reason": "It is unclear whether this is a static ad, a carousel card or a frame from a video. No interface elements are visible."
+          },
+          {
+            "attribute": "Product name/price",
+            "reason": "No text or price is visible."
+          }
+        ]
+      }
+    },
+    "lastAttempt": {
+      "at": "2026-10-26T17:56:30.516Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 8505,
+      "outcome": "completed",
+      "attempts": 1,
+      "responseId": "gen-1793037390-1ycNptnGLW8TL8FKhIMW",
+      "usage": {
+        "promptTokens": 2699,
+        "completionTokens": 776,
+        "cost": 0.013158,
+        "cachedPromptTokens": 0
+      },
+      "error": null
+    }
+  },
+  "cr-009": {
+    "creativeId": "cr-009",
+    "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/63/63321670464c4f179240198b979d3edfd8fddc7c21249e5cd430d0430233a3dc.webp",
+    "status": "completed",
+    "current": {
+      "creativeId": "cr-009",
+      "hookType": "product-first",
+      "productVisibility": "Product prominence: dominant. Single square image. A seated model occupies the left and centre. A text block sits on the right with the logo at the top, then a headline, a subline and a CTA button.",
+      "offerType": null,
+      "ctaType": "shop-now",
+      "visualStyle": "studio",
+      "textDensity": "low",
+      "description": "A man in a teal button-down shirt, navy trousers and white sneakers sits on a wooden chair against a plain light backdrop. Beside him are the SNITCH logo, the headline 'Lucia Teal Plain Plus Size Shirts', the line 'Refined Comfort. Effortless Style.' and a SHOP NOW button.",
+      "modelVersion": "anthropic/claude-sonnet-5.5",
+      "createdAt": "2026-10-26T17:56:47.450Z",
+      "productProminence": "dominant",
+      "vision": {
+        "observations": {
+          "format_composition": "Single square image. A seated model occupies the left and centre. A text block sits on the right with the logo at the top, then a headline, a subline and a CTA button.",
+          "garments": [
+            {
+              "type": "button-down shirt",
+              "colour": "teal",
+              "pattern": "plain/solid",
+              "details": "Long sleeves rolled up to the forearms, button-down collar, chest pocket, worn untucked"
+            },
+            {
+              "type": "trousers",
+              "colour": "navy",
+              "pattern": "plain/solid",
+              "details": "Slim straight-looking leg, full length"
+            },
+            {
+              "type": "sneakers",
+              "colour": "white",
+              "pattern": null,
+              "details": "Low-top lace-up"
+            }
+          ],
+          "product_prominence": "dominant",
+          "people": "one",
+          "background": "Plain off-white/cream studio backdrop with no props apart from the chair",
+          "visual_style": "studio",
+          "visible_text": [
+            "SNITCH",
+            "Lucia Teal Plain Plus Size Shirts",
+            "Refined Comfort. Effortless Style.",
+            "SHOP NOW"
+          ],
+          "offer_text": null,
+          "cta_text": "SHOP NOW",
+          "text_density": "low"
+        },
+        "interpretations": {
+          "creative_angle": "Product-focused catalogue-style promotion of a plus-size teal shirt. It stresses comfort and a polished, easy look through a relaxed seated pose.",
+          "rationale": "The headline names the product ('Lucia Teal Plain Plus Size Shirts'). The subline reads 'Refined Comfort. Effortless Style.' The model sits in a relaxed pose on a wooden chair against a clean studio background, with the teal shirt as the main colour against the neutral backdrop."
+        },
+        "uncertain": [
+          {
+            "attribute": "fabric",
+            "reason": "The material is not stated and cannot be reliably judged from the image."
+          },
+          {
+            "attribute": "exact shirt colour",
+            "reason": "Studio lighting and image compression may shift the teal shade."
+          },
+          {
+            "attribute": "price or offer",
+            "reason": "No price or discount is shown."
+          },
+          {
+            "attribute": "size range",
+            "reason": "The text says 'Plus Size' but gives no specific sizes."
+          }
+        ]
+      }
+    },
+    "lastAttempt": {
+      "at": "2026-10-26T17:56:39.023Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 8427,
+      "outcome": "completed",
+      "attempts": 1,
+      "responseId": "gen-1793037399-Tdfnn1r1OMcjDYyrv8p9",
+      "usage": {
+        "promptTokens": 2423,
+        "completionTokens": 828,
+        "cost": 0.013126,
+        "cachedPromptTokens": 0
+      },
+      "error": null
+    }
+  },
+  "cr-010": {
+    "creativeId": "cr-010",
+    "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/6d/6dc5ac5c30c3a79c8e20bf989cc3c48677d46db7784be4df81c90ede22cb15b2.webp",
+    "status": "completed",
+    "current": {
+      "creativeId": "cr-010",
+      "hookType": "product-first",
+      "productVisibility": "Product prominence: dominant. Square collage on a white background: SNITCH logo centred at top, a large left photo of a model in a checked shirt, two stacked detail close-ups on the right (button placket and rolled sleeve with bracelets), and a text block with headline, subline and offer text along the bottom.",
+      "offerType": "UP TO 20% OFF",
+      "ctaType": "none",
+      "visualStyle": "studio",
+      "textDensity": "medium",
+      "description": "A SNITCH collage ad with a model in a sage green and white checked shirt and sunglasses beside two close-up detail shots. The 'PREMIUM EDIT' headline, a short description and 'UP TO 20% OFF' appear below.",
+      "modelVersion": "anthropic/claude-sonnet-5.5",
+      "createdAt": "2026-10-26T17:56:56.604Z",
+      "productProminence": "dominant",
+      "vision": {
+        "observations": {
+          "format_composition": "Square collage on a white background: SNITCH logo centred at top, a large left photo of a model in a checked shirt, two stacked detail close-ups on the right (button placket and rolled sleeve with bracelets), and a text block with headline, subline and offer text along the bottom.",
+          "garments": [
+            {
+              "type": "Long-sleeve button-up shirt",
+              "colour": "Sage green and white",
+              "pattern": "Large check/plaid",
+              "details": "Spread collar, front button placket, sleeves rolled up to the forearm with a buttoned cuff tab, curved hem, worn untucked"
+            },
+            {
+              "type": "Jeans",
+              "colour": "Mid blue",
+              "pattern": null,
+              "details": "Only the top portion is visible at the bottom of the main photo"
+            }
+          ],
+          "product_prominence": "dominant",
+          "people": "one",
+          "background": "Plain warm beige studio backdrop in the main photo; the close-ups fill the frame with shirt fabric; the surrounding layout is white.",
+          "visual_style": "studio",
+          "visible_text": [
+            "SNITCH",
+            "PREMIUM EDIT",
+            "Crafted in premium textured cotton with a versatile relaxed fit.",
+            "UP TO 20% OFF"
+          ],
+          "offer_text": "UP TO 20% OFF",
+          "cta_text": null,
+          "text_density": "medium"
+        },
+        "interpretations": {
+          "creative_angle": "A premium-positioned check shirt collection highlighting texture and relaxed fit, with a modest discount as a secondary incentive.",
+          "rationale": "The 'PREMIUM EDIT' headline and the copy about textured cotton and relaxed fit, plus the fabric and sleeve close-ups, emphasise quality and detail; 'UP TO 20% OFF' sits small in the bottom right as a secondary message."
+        },
+        "uncertain": [
+          {
+            "attribute": "Fabric composition",
+            "reason": "The copy says 'premium textured cotton', but the actual fabric cannot be verified from the image."
+          },
+          {
+            "attribute": "Exact colour",
+            "reason": "The sage green tone may be shifted by studio lighting and image compression."
+          },
+          {
+            "attribute": "Product name, price and size range",
+            "reason": "None are shown in the image."
+          },
+          {
+            "attribute": "Call to action",
+            "reason": "No button or CTA wording is visible in the creative; any CTA may exist outside the image."
+          }
+        ]
+      }
+    },
+    "lastAttempt": {
+      "at": "2026-10-26T17:56:47.452Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 9152,
+      "outcome": "completed",
+      "attempts": 1,
+      "responseId": "gen-1793037407-2MsI8nl4G1wN545Mi02F",
+      "usage": {
+        "promptTokens": 2423,
+        "completionTokens": 862,
+        "cost": 0.013466,
+        "cachedPromptTokens": 0
+      },
+      "error": null
+    }
+  },
+  "cr-011": {
+    "creativeId": "cr-011",
+    "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/76/76a53dc3b6e160754c2f13f18223650c5909d136d11857a4eb0a110154fd9379.webp",
+    "status": "completed",
+    "current": {
+      "creativeId": "cr-011",
+      "hookType": "model-first",
+      "productVisibility": "Product prominence: prominent. Single square image. A man stands on the left and centre, photographed outdoors on a street. Text is stacked in the right half: the SNITCH QUICK logo, a location line, then a headline and a delivery-time line lower down. The right side is darkened to support the text.",
+      "offerType": null,
+      "ctaType": "none",
+      "visualStyle": "street",
+      "textDensity": "medium",
+      "description": "A man with curly hair stands on a street in a burgundy shirt and black trousers, carrying a black bag and a bouquet of red roses. Text on the right reads 'SNITCH QUICK, NOW LIVE IN HYDERABAD, DATE-READY LOOKS DELIVERED IN 60 MINS'.",
+      "modelVersion": "anthropic/claude-sonnet-5.5",
+      "createdAt": "2026-10-26T17:57:06.340Z",
+      "productProminence": "prominent",
+      "vision": {
+        "observations": {
+          "format_composition": "Single square image. A man stands on the left and centre, photographed outdoors on a street. Text is stacked in the right half: the SNITCH QUICK logo, a location line, then a headline and a delivery-time line lower down. The right side is darkened to support the text.",
+          "garments": [
+            {
+              "type": "Shirt",
+              "colour": "Burgundy / maroon",
+              "pattern": "Solid",
+              "details": "Long sleeves, buttoned cuffs, spread collar, top button open, smooth sheen"
+            },
+            {
+              "type": "Trousers",
+              "colour": "Black",
+              "pattern": "Solid",
+              "details": "Straight leg, worn with a black belt with a metallic buckle"
+            },
+            {
+              "type": "Belt",
+              "colour": "Black",
+              "pattern": "Solid",
+              "details": "Slim, with a silver buckle"
+            },
+            {
+              "type": "Bag",
+              "colour": "Black",
+              "pattern": "Croc-embossed look",
+              "details": "Structured tote/duffel held in his left hand with top handles"
+            }
+          ],
+          "product_prominence": "prominent",
+          "people": "one",
+          "background": "Outdoor urban street with a grey concrete wall or underpass above, a kerb and dark asphalt below; the right side is darkened with a gradient",
+          "visual_style": "street",
+          "visible_text": [
+            "SNITCH",
+            "QUICK",
+            "NOW LIVE IN",
+            "HYDERABAD",
+            "DATE-READY LOOKS",
+            "DELIVERED IN",
+            "60 MINS"
+          ],
+          "offer_text": null,
+          "cta_text": null,
+          "text_density": "medium"
+        },
+        "interpretations": {
+          "creative_angle": "Announces the launch of a fast-delivery service (SNITCH QUICK) in Hyderabad, positioning 60-minute delivery as a way to get ready for a date at short notice.",
+          "rationale": "The headline 'DATE-READY LOOKS DELIVERED IN 60 MINS' and 'NOW LIVE IN HYDERABAD' carry the message. The date theme is reinforced visually by the bouquet of red roses and the polished burgundy shirt and black trousers outfit."
+        },
+        "uncertain": [
+          {
+            "attribute": "Fabric",
+            "reason": "Material of the shirt, trousers and bag cannot be determined from the image; the shirt only appears to have a sheen."
+          },
+          {
+            "attribute": "Exact shirt colour",
+            "reason": "Burgundy/maroon shade may be altered by lighting and colour grading."
+          },
+          {
+            "attribute": "Product names, fit and price",
+            "reason": "No product names, fit descriptors or prices appear in the image."
+          },
+          {
+            "attribute": "Video or motion content",
+            "reason": "Only a single static frame is visible, so it is unclear whether this is part of a video or a carousel."
+          },
+          {
+            "attribute": "Call to action",
+            "reason": "No button or CTA wording is visible in the image; any CTA may sit outside the creative."
+          }
+        ]
+      }
+    },
+    "lastAttempt": {
+      "at": "2026-10-26T17:56:56.607Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 9734,
+      "outcome": "completed",
+      "attempts": 1,
+      "responseId": "gen-1793037416-KAGbgLASHoeYH4qf7xLL",
+      "usage": {
+        "promptTokens": 2423,
+        "completionTokens": 1048,
+        "cost": 0.015326,
+        "cachedPromptTokens": 0
+      },
+      "error": null
+    }
+  },
+  "cr-012": {
+    "creativeId": "cr-012",
+    "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/7e/7e2e0dd09bfe997f2981ccfe4b33bf64d69c56499308b8b76cdd3202fcdc7f58.webp",
+    "status": "completed",
+    "current": {
+      "creativeId": "cr-012",
+      "hookType": "model-first",
+      "productVisibility": "Product prominence: prominent. Single square image. A man stands on the left half, shown from the thighs up. Text is stacked on the right: the SNITCH QUICK logo at the top right, then 'NOW LIVE IN DELHI', then the headline and delivery time at the lower right. The right side has a dark gradient overlay.",
+      "offerType": null,
+      "ctaType": "none",
+      "visualStyle": "street",
+      "textDensity": "medium",
+      "description": "A man with curly hair stands on a street in a burgundy shirt and black trousers, holding a black croc-textured bag and red roses. Text on the right reads 'SNITCH QUICK', 'NOW LIVE IN DELHI', 'DATE-READY LOOKS DELIVERED IN 60 MINS'.",
+      "modelVersion": "anthropic/claude-sonnet-5.5",
+      "createdAt": "2026-10-26T17:57:18.579Z",
+      "productProminence": "prominent",
+      "vision": {
+        "observations": {
+          "format_composition": "Single square image. A man stands on the left half, shown from the thighs up. Text is stacked on the right: the SNITCH QUICK logo at the top right, then 'NOW LIVE IN DELHI', then the headline and delivery time at the lower right. The right side has a dark gradient overlay.",
+          "garments": [
+            {
+              "type": "shirt",
+              "colour": "burgundy/maroon",
+              "pattern": "solid",
+              "details": "Long sleeves, collared, worn untucked at the front but sitting at the waist, with the top button open and the cuffs buttoned. The surface looks smooth and slightly sheeny."
+            },
+            {
+              "type": "trousers",
+              "colour": "black",
+              "pattern": "solid",
+              "details": "Straight, tailored look, worn with a black belt with a metallic buckle"
+            },
+            {
+              "type": "bag",
+              "colour": "black",
+              "pattern": "croc-embossed texture",
+              "details": "Large tote or duffel with top handles and a zip, carried in the man's left hand"
+            }
+          ],
+          "product_prominence": "prominent",
+          "people": "one",
+          "background": "Outdoor urban street with a grey concrete wall, a kerb and asphalt. The right side fades to dark.",
+          "visual_style": "street",
+          "visible_text": [
+            "SNITCH",
+            "QUICK",
+            "NOW LIVE IN DELHI",
+            "DATE-READY LOOKS",
+            "DELIVERED IN",
+            "60 MINS"
+          ],
+          "offer_text": null,
+          "cta_text": null,
+          "text_density": "medium"
+        },
+        "interpretations": {
+          "creative_angle": "Announces the launch of SNITCH QUICK, a fast-delivery service in Delhi. Date-night outfits are positioned as arriving within 60 minutes.",
+          "rationale": "The text reads 'NOW LIVE IN DELHI' and 'DATE-READY LOOKS DELIVERED IN 60 MINS'. The man holds red roses and wears a burgundy shirt with black trousers, which supports the date-night framing. The orange '60 MINS' draws attention to the speed claim."
+        },
+        "uncertain": [
+          {
+            "attribute": "fabric",
+            "reason": "The shirt looks smooth and slightly glossy, but the material cannot be confirmed from the image."
+          },
+          {
+            "attribute": "exact colour",
+            "reason": "The shirt reads as burgundy/maroon, but lighting and image processing may shift the shade."
+          },
+          {
+            "attribute": "product names or fit",
+            "reason": "No product labels or fit names are visible."
+          },
+          {
+            "attribute": "service terms",
+            "reason": "Delivery coverage, conditions and availability beyond Delhi are not shown."
+          },
+          {
+            "attribute": "call to action",
+            "reason": "No button or action wording is visible in this frame."
+          }
+        ]
+      }
+    },
+    "lastAttempt": {
+      "at": "2026-10-26T17:57:06.343Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 12237,
+      "outcome": "completed",
+      "attempts": 1,
+      "responseId": "gen-1793037429-20iZ282SLeE1zIlJCtIV",
+      "usage": {
+        "promptTokens": 2423,
+        "completionTokens": 998,
+        "cost": 0.014826,
+        "cachedPromptTokens": 0
+      },
+      "error": null
+    }
+  },
+  "cr-013": {
+    "creativeId": "cr-013",
+    "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/61/6124c6e820ee3235534bcb76e5bf45508f47fe1b73d1c5a68edf45db98e0d4e5.webp",
+    "status": "completed",
+    "current": {
+      "creativeId": "cr-013",
+      "hookType": "product-first",
+      "productVisibility": "Product prominence: dominant. Square collage on an off-white frame. SNITCH logo centred at top. Left: a large photo of a seated male model. Right: two stacked close-ups, one of the shirt placket, buttons and chest pocket, the other of the rolled sleeve and wrist with a watch. Headline, subtext and offer text sit in a bottom band.",
+      "offerType": "UP TO 20% OFF",
+      "ctaType": "none",
+      "visualStyle": "studio",
+      "textDensity": "low",
+      "description": "A square collage ad for SNITCH's new shirt collection shows a seated bearded model in sunglasses wearing a light striped shirt and blue jeans, alongside close-ups of the placket and rolled sleeve with a watch. The bottom band reads 'NEW SHIRT COLLECTION', a short fabric and fit line, and 'UP TO 20% OFF'.",
+      "modelVersion": "anthropic/claude-sonnet-5.5",
+      "createdAt": "2026-10-26T17:57:29.859Z",
+      "productProminence": "dominant",
+      "vision": {
+        "observations": {
+          "format_composition": "Square collage on an off-white frame. SNITCH logo centred at top. Left: a large photo of a seated male model. Right: two stacked close-ups, one of the shirt placket, buttons and chest pocket, the other of the rolled sleeve and wrist with a watch. Headline, subtext and offer text sit in a bottom band.",
+          "garments": [
+            {
+              "type": "shirt",
+              "colour": "off-white/light beige with grey-beige stripes",
+              "pattern": "thin vertical stripes",
+              "details": "Collared button-down style, full sleeves rolled up to the forearm, white buttons, chest pocket visible in close-up, worn untucked and relaxed"
+            },
+            {
+              "type": "jeans",
+              "colour": "light blue",
+              "pattern": "solid, faded wash",
+              "details": "Partially visible below the shirt as the model sits"
+            }
+          ],
+          "product_prominence": "dominant",
+          "people": "one",
+          "background": "Plain light grey studio backdrop in the main photo; the close-ups fill their frames with shirt fabric; off-white border and text band",
+          "visual_style": "studio",
+          "visible_text": [
+            "SNITCH",
+            "NEW SHIRT COLLECTION",
+            "Crafted in premium textured cotton with a versatile relaxed fit.",
+            "UP TO 20% OFF"
+          ],
+          "offer_text": "UP TO 20% OFF",
+          "cta_text": null,
+          "text_density": "low"
+        },
+        "interpretations": {
+          "creative_angle": "Launch of a new striped shirt range, stressing fabric quality and relaxed comfort, with a modest discount as an added incentive.",
+          "rationale": "The headline 'NEW SHIRT COLLECTION' and the subtext about textured cotton and relaxed fit, plus the close-ups of buttons, pocket, stripes and rolled cuff, point to a focus on product detail. The 'UP TO 20% OFF' badge in the bottom corner adds the offer."
+        },
+        "uncertain": [
+          {
+            "attribute": "fabric",
+            "reason": "The copy says 'premium textured cotton', but the fabric cannot be verified from the image."
+          },
+          {
+            "attribute": "exact shirt colour",
+            "reason": "Studio lighting may shift the beige/off-white tone."
+          },
+          {
+            "attribute": "which products the offer covers",
+            "reason": "The text says only 'up to 20% off' and does not say which items or under what conditions."
+          },
+          {
+            "attribute": "call to action",
+            "reason": "No button or CTA wording is visible; any CTA may sit in the ad placement outside the image."
+          },
+          {
+            "attribute": "size or fit of the shirt",
+            "reason": "The copy says relaxed fit, but the specific fit name and sizing are not shown."
+          }
+        ]
+      }
+    },
+    "lastAttempt": {
+      "at": "2026-10-26T17:57:18.583Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 11276,
+      "outcome": "completed",
+      "attempts": 1,
+      "responseId": "gen-1793037438-0pLBBFOfPvUhafxcaFDa",
+      "usage": {
+        "promptTokens": 2423,
+        "completionTokens": 1008,
+        "cost": 0.014926,
+        "cachedPromptTokens": 0
+      },
+      "error": null
+    }
+  },
+  "cr-018": {
+    "creativeId": "cr-018",
+    "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_139a6bf0-f0ac-43dc-98c7-318966a4a959.jpg?v=1760510861",
+    "status": "completed",
+    "current": {
+      "creativeId": "cr-018",
+      "hookType": "product-first",
+      "productVisibility": "Product prominence: dominant. Single full-length front-facing studio image of a model cropped from the chest down to the feet, centred, with both hands in the trouser pockets.",
+      "offerType": null,
+      "ctaType": "none",
+      "visualStyle": "studio",
+      "textDensity": "none",
+      "description": "A cropped studio shot of a model from chest to feet wearing black high-waisted pleated trousers with side buckle tabs, a light blue shirt with rolled sleeves, black loafers and a silver watch, against a plain light background. No text appears in the image.",
+      "modelVersion": "anthropic/claude-sonnet-5.5",
+      "createdAt": "2026-10-26T17:57:39.483Z",
+      "productProminence": "dominant",
+      "vision": {
+        "observations": {
+          "format_composition": "Single full-length front-facing studio image of a model cropped from the chest down to the feet, centred, with both hands in the trouser pockets.",
+          "garments": [
+            {
+              "type": "trousers",
+              "colour": "black",
+              "pattern": "solid",
+              "details": "High waist with a wrap-style waistband, side adjuster tabs with buckles at both hips, double front pleats, creased front, slanted side pockets, tapered leg ending in a slightly cuffed or gathered hem"
+            },
+            {
+              "type": "shirt",
+              "colour": "light blue",
+              "pattern": "solid",
+              "details": "Sleeves rolled to the forearm; only the lower torso and sleeves are visible, and the shirt appears untucked or tucked under the waistband"
+            },
+            {
+              "type": "loafers",
+              "colour": "black",
+              "pattern": "solid",
+              "details": "Leather-look penny loafers with a chunky lugged sole"
+            },
+            {
+              "type": "wristwatch",
+              "colour": "silver with a dark blue dial",
+              "pattern": null,
+              "details": "Metal bracelet, worn on the model's left wrist"
+            }
+          ],
+          "product_prominence": "dominant",
+          "people": "one",
+          "background": "Plain light grey-white seamless studio backdrop",
+          "visual_style": "studio",
+          "visible_text": [],
+          "offer_text": null,
+          "cta_text": null,
+          "text_density": "none"
+        },
+        "interpretations": {
+          "creative_angle": "A clean e-commerce product shot presenting the black pleated trousers as a smart, formal-leaning wardrobe piece, with the high waist and side buckle tabs as the key design details.",
+          "rationale": "The trousers fill most of the frame against a plain backdrop, the head is cropped out to keep attention on the garment, and the light blue shirt and black loafers are a simple, formal styling that keeps the trousers central. There is no text or offer."
+        },
+        "uncertain": [
+          {
+            "attribute": "fabric",
+            "reason": "The material cannot be confirmed from the image; the surface looks like a matte woven texture but its composition is not visible."
+          },
+          {
+            "attribute": "exact colour",
+            "reason": "The trousers look black or very dark charcoal under studio lighting, and the true shade may differ."
+          },
+          {
+            "attribute": "fit name",
+            "reason": "No label or text states the fit; it only appears tapered."
+          },
+          {
+            "attribute": "back and side details",
+            "reason": "Only the front view is shown."
+          },
+          {
+            "attribute": "price and product name",
+            "reason": "No text is visible in the image."
+          }
+        ]
+      }
+    },
+    "lastAttempt": {
+      "at": "2026-10-26T17:57:29.874Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 9609,
+      "outcome": "completed",
+      "attempts": 1,
+      "responseId": "gen-1793037450-7TKx32V6nf1C8HTMXdYQ",
+      "usage": {
+        "promptTokens": 3141,
+        "completionTokens": 890,
+        "cost": 0.015182,
+        "cachedPromptTokens": 0
+      },
+      "error": null
+    }
+  },
+  "cr-019": {
+    "creativeId": "cr-019",
+    "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_d3780651-bce7-41d5-8640-c3731f249e97.jpg?v=1784646542",
+    "status": "completed",
+    "current": {
+      "creativeId": "cr-019",
+      "hookType": "product-first",
+      "productVisibility": "Product prominence: dominant. Single vertical studio image, model shown from head to mid-thigh, centred against a plain background, with no overlays or graphics",
+      "offerType": null,
+      "ctaType": "none",
+      "visualStyle": "studio",
+      "textDensity": "none",
+      "description": "A male model with short curly hair and black sunglasses stands against a plain white backdrop wearing a teal, cream and olive watercolour floral camp-collar shirt, pale washed jeans and a beige sweater tied at the waist. One hand is in his pocket and there is no text in the image.",
+      "modelVersion": "anthropic/claude-sonnet-5.5",
+      "createdAt": "2026-10-26T17:57:50.714Z",
+      "productProminence": "dominant",
+      "vision": {
+        "observations": {
+          "format_composition": "Single vertical studio image, model shown from head to mid-thigh, centred against a plain background, with no overlays or graphics",
+          "garments": [
+            {
+              "type": "Short-sleeve camp-collar shirt",
+              "colour": "Deep teal, cream/ivory, olive and mustard accents",
+              "pattern": "Large abstract watercolour-style floral print",
+              "details": "Open notch/camp collar, front button placket with light buttons, short sleeves with slightly folded cuffs, worn untucked with a relaxed look"
+            },
+            {
+              "type": "Jeans/trousers",
+              "colour": "Pale washed ice-blue/off-white",
+              "pattern": "Solid with faded wash effect",
+              "details": "Relaxed wide-leg appearance, one hand in pocket; only upper portion visible"
+            },
+            {
+              "type": "Sweater or jumper tied at waist",
+              "colour": "Beige/taupe",
+              "pattern": "Solid",
+              "details": "Sleeves knotted around the waist and hanging down the front"
+            },
+            {
+              "type": "Sunglasses",
+              "colour": "Black",
+              "pattern": "Solid",
+              "details": "Dark lenses, angular narrow frame with small detail at the temple"
+            }
+          ],
+          "product_prominence": "dominant",
+          "people": "one",
+          "background": "Plain white/very light grey seamless studio backdrop",
+          "visual_style": "studio",
+          "visible_text": [],
+          "offer_text": null,
+          "cta_text": null,
+          "text_density": "none"
+        },
+        "interpretations": {
+          "creative_angle": "Presents the printed shirt as a statement, fashion-forward piece styled in a relaxed, summery way with contrasting light-wash denim and a tied sweater.",
+          "rationale": "The large bold floral print fills the centre of the frame, the clean white backdrop keeps focus on the shirt, and the styling (sunglasses, tied layer, hand in pocket) gives a casual, styled look."
+        },
+        "uncertain": [
+          {
+            "attribute": "Fabric",
+            "reason": "Material cannot be determined from a photo; the drape suggests a soft fabric but this is not confirmable"
+          },
+          {
+            "attribute": "Fit name",
+            "reason": "No label or text is visible to state the official fit"
+          },
+          {
+            "attribute": "Exact colours",
+            "reason": "Studio lighting and editing may alter the perceived teal, cream and olive tones"
+          },
+          {
+            "attribute": "Back and detail views",
+            "reason": "Only a single front view is shown"
+          },
+          {
+            "attribute": "Whether other items are for sale",
+            "reason": "The jeans, sweater and sunglasses may be styling props and are not labelled"
+          }
+        ]
+      }
+    },
+    "lastAttempt": {
+      "at": "2026-10-26T17:57:39.485Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 11229,
+      "outcome": "completed",
+      "attempts": 1,
+      "responseId": "gen-1793037459-YBKuls06TBDSCUbkESFB",
+      "usage": {
+        "promptTokens": 3141,
+        "completionTokens": 942,
+        "cost": 0.015702,
+        "cachedPromptTokens": 0
+      },
+      "error": null
+    }
+  },
+  "cr-020": {
+    "creativeId": "cr-020",
+    "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mlx1222-01_1.jpg?v=1772731750",
+    "status": "completed",
+    "current": {
+      "creativeId": "cr-020",
+      "hookType": "product-first",
+      "productVisibility": "Product prominence: dominant. Single studio image, vertical portrait crop from head to upper thighs, male model centred and facing the camera, one hand in trouser pocket and the other holding sunglasses at his side",
+      "offerType": null,
+      "ctaType": "none",
+      "visualStyle": "studio",
+      "textDensity": "none",
+      "description": "A male model in a white shirt with dark vertical pinstripes and sleeves cuffed to three-quarter length, worn untucked over slate grey trousers, stands against a plain light studio background. He wears a wristwatch and holds sunglasses in one hand.",
+      "modelVersion": "anthropic/claude-sonnet-5.5",
+      "createdAt": "2026-10-26T17:58:00.281Z",
+      "productProminence": "dominant",
+      "vision": {
+        "observations": {
+          "format_composition": "Single studio image, vertical portrait crop from head to upper thighs, male model centred and facing the camera, one hand in trouser pocket and the other holding sunglasses at his side",
+          "garments": [
+            {
+              "type": "button-up shirt",
+              "colour": "white or off-white base with dark grey/black stripes",
+              "pattern": "vertical pinstripes, spaced fairly widely",
+              "details": "spread collar, front placket with small white buttons, sleeves rolled/cuffed to about three-quarter length, hem curved and worn untucked"
+            },
+            {
+              "type": "trousers",
+              "colour": "slate grey-blue",
+              "pattern": "solid",
+              "details": "relaxed, straight or wide-leg cut with a front pleat or crease, hand in side pocket"
+            }
+          ],
+          "product_prominence": "dominant",
+          "people": "one",
+          "background": "plain white or very light grey seamless studio backdrop",
+          "visual_style": "studio",
+          "visible_text": [],
+          "offer_text": null,
+          "cta_text": null,
+          "text_density": "none"
+        },
+        "interpretations": {
+          "creative_angle": "A clean, smart-casual catalogue shot presenting the striped shirt as a polished, versatile staple, styled with grey trousers, a watch and sunglasses.",
+          "rationale": "The shirt fills most of the frame against a neutral backdrop. The accessories (wristwatch, sunglasses in hand) and relaxed pose suggest an effortless, refined look. There is no text, offer or call to action, so the focus is on the garment."
+        },
+        "uncertain": [
+          {
+            "attribute": "fabric",
+            "reason": "Material cannot be determined from the image; the shirt has a smooth, slightly sheen-like appearance but this is not conclusive."
+          },
+          {
+            "attribute": "exact colour",
+            "reason": "Studio lighting may alter the perceived white and grey tones."
+          },
+          {
+            "attribute": "fit name",
+            "reason": "No label or text states the fit; the shirt appears regular to slim but this is not verifiable."
+          },
+          {
+            "attribute": "back and other views",
+            "reason": "Only a front three-quarter view is shown."
+          },
+          {
+            "attribute": "product name and price",
+            "reason": "No text is visible in the image."
+          }
+        ]
+      }
+    },
+    "lastAttempt": {
+      "at": "2026-10-26T17:57:50.717Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 9564,
+      "outcome": "completed",
+      "attempts": 1,
+      "responseId": "gen-1793037470-HlnItpNPb6b4BbPENXOk",
+      "usage": {
+        "promptTokens": 3141,
+        "completionTokens": 808,
+        "cost": 0.014362,
+        "cachedPromptTokens": 0
+      },
+      "error": null
+    }
+  },
+  "cr-021": {
+    "creativeId": "cr-021",
+    "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/f7967e6bd62dd33dd48ff492a94c2be9.webp?v=1724926999",
+    "status": "completed",
+    "current": {
+      "creativeId": "cr-021",
+      "hookType": "product-first",
+      "productVisibility": "Product prominence: dominant. Single studio image, vertical portrait crop of one model from head to mid-thigh, leaning against a plain wall with one hand in a trouser pocket",
+      "offerType": null,
+      "ctaType": "none",
+      "visualStyle": "studio",
+      "textDensity": "none",
+      "description": "A young man with styled hair and dark sunglasses leans against a light grey wall, wearing a black, grey and off-white abstract-print shirt with rolled sleeves and black drawstring trousers. Tattoos and a beaded bracelet are visible on his arms, and there is no text in the image.",
+      "modelVersion": "anthropic/claude-sonnet-5.5",
+      "createdAt": "2026-10-26T17:58:08.685Z",
+      "productProminence": "dominant",
+      "vision": {
+        "observations": {
+          "format_composition": "Single studio image, vertical portrait crop of one model from head to mid-thigh, leaning against a plain wall with one hand in a trouser pocket",
+          "garments": [
+            {
+              "type": "Long-sleeve button-up shirt",
+              "colour": "Black, grey and off-white",
+              "pattern": "Abstract brushstroke or watercolour-style print",
+              "details": "Spread collar, front button placket, sleeves rolled up to the forearms, visible crinkled or textured surface"
+            },
+            {
+              "type": "Trousers",
+              "colour": "Black",
+              "pattern": "Solid",
+              "details": "Drawstring at the waist, hand in the side pocket"
+            }
+          ],
+          "product_prominence": "dominant",
+          "people": "one",
+          "background": "Plain light grey studio wall with soft shadow cast by the model",
+          "visual_style": "studio",
+          "visible_text": [],
+          "offer_text": null,
+          "cta_text": null,
+          "text_density": "none"
+        },
+        "interpretations": {
+          "creative_angle": "Showcases the shirt's bold abstract monochrome print as a statement piece, styled in a casual, edgy way with black trousers, sunglasses and a bracelet.",
+          "rationale": "The shirt fills most of the frame and its high-contrast brushstroke pattern is the main visual element. The black trousers and dark sunglasses keep the palette cohesive, and the tattoos, beaded bracelet and relaxed pose suggest a casual, edgy look."
+        },
+        "uncertain": [
+          {
+            "attribute": "Fabric",
+            "reason": "The surface looks crinkled or textured, but the material cannot be confirmed from the image."
+          },
+          {
+            "attribute": "Exact colour",
+            "reason": "Studio lighting may shift the apparent tones of the black, grey and off-white."
+          },
+          {
+            "attribute": "Fit",
+            "reason": "The fit cannot be named from a single posed frame."
+          },
+          {
+            "attribute": "Product name and price",
+            "reason": "No text is visible in the image."
+          },
+          {
+            "attribute": "Back and other views",
+            "reason": "Only the front view is shown."
+          }
+        ]
+      }
+    },
+    "lastAttempt": {
+      "at": "2026-10-26T17:58:00.284Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 8402,
+      "outcome": "completed",
+      "attempts": 1,
+      "responseId": "gen-1793037480-fmarwgGjTsMuaW1D3HE7",
+      "usage": {
+        "promptTokens": 3141,
+        "completionTokens": 773,
+        "cost": 0.014012,
+        "cachedPromptTokens": 0
+      },
+      "error": null
+    }
+  },
+  "cr-022": {
+    "creativeId": "cr-022",
+    "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSS4327-01-M8.jpg?v=1771239051",
+    "status": "completed",
+    "current": {
+      "creativeId": "cr-022",
+      "hookType": "model-first",
+      "productVisibility": "Product prominence: prominent. Single portrait-orientation image of one model standing front-facing, framed from head to mid-thigh, with hands in trouser pockets. Centred composition against a concrete archway and large green leaves.",
+      "offerType": null,
+      "ctaType": "none",
+      "visualStyle": "lifestyle",
+      "textDensity": "none",
+      "description": "A young man with dark curly hair stands in front of a concrete archway and tropical leaves, wearing a white textured short-sleeve shirt, brown trousers and a tan bucket hat with a printed underbrim. He has his hands in his pockets and looks at the camera.",
+      "modelVersion": "anthropic/claude-sonnet-5.5",
+      "createdAt": "2026-10-26T17:58:18.521Z",
+      "productProminence": "prominent",
+      "vision": {
+        "observations": {
+          "format_composition": "Single portrait-orientation image of one model standing front-facing, framed from head to mid-thigh, with hands in trouser pockets. Centred composition against a concrete archway and large green leaves.",
+          "garments": [
+            {
+              "type": "short-sleeve shirt",
+              "colour": "white",
+              "pattern": "subtle vertical tonal stripes with a crinkled texture",
+              "details": "Open spread collar, front button placket with light buttons, short sleeves with turned cuffs, hem worn untucked and slightly curved"
+            },
+            {
+              "type": "trousers",
+              "colour": "brown",
+              "pattern": "solid",
+              "details": "Relaxed straight leg, hands in front pockets, visible belt-loop and waistband area"
+            },
+            {
+              "type": "bucket hat",
+              "colour": "tan/brown exterior with a dark printed underside and mint green edge",
+              "pattern": "printed underbrim, solid crown",
+              "details": "Brim turned up slightly to reveal the patterned lining and green trim"
+            }
+          ],
+          "product_prominence": "prominent",
+          "people": "one",
+          "background": "Grey concrete wall with an arched opening and dense tropical green foliage, with natural sunlight filtering through the leaves",
+          "visual_style": "lifestyle",
+          "visible_text": [],
+          "offer_text": null,
+          "cta_text": null,
+          "text_density": "none"
+        },
+        "interpretations": {
+          "creative_angle": "A relaxed, warm-weather smart-casual outfit presented in a tropical, resort-like setting, with the white textured shirt as the hero piece styled with brown trousers and a bucket hat.",
+          "rationale": "The white short-sleeve shirt with open collar is the central, brightest element. The tropical foliage and sunlit concrete suggest a vacation or summer mood, and the earthy brown trousers and hat form a coordinated palette. The model's direct gaze and relaxed pose make it feel editorial."
+        },
+        "uncertain": [
+          {
+            "attribute": "fabric",
+            "reason": "The shirt's crinkled texture is visible, but the material composition cannot be determined from the image."
+          },
+          {
+            "attribute": "fit name",
+            "reason": "The shirt looks relaxed, but no label or text confirms an official fit name."
+          },
+          {
+            "attribute": "exact colour",
+            "reason": "Outdoor light and shade may alter how the white, brown and tan tones appear."
+          },
+          {
+            "attribute": "price or offer",
+            "reason": "No text, price or promotional overlay is present."
+          },
+          {
+            "attribute": "which item is the featured product",
+            "reason": "The shirt, trousers and hat are all visible. This is a product page image, so the featured item is not stated."
+          },
+          {
+            "attribute": "back or side details",
+            "reason": "Only the front view is shown."
+          }
+        ]
+      }
+    },
+    "lastAttempt": {
+      "at": "2026-10-26T17:58:08.689Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 9832,
+      "outcome": "completed",
+      "attempts": 1,
+      "responseId": "gen-1793037489-p7UD6BVGLI4BbbkrZ2fs",
+      "usage": {
+        "promptTokens": 3141,
+        "completionTokens": 974,
+        "cost": 0.016022,
+        "cachedPromptTokens": 0
+      },
+      "error": null
+    }
+  },
+  "cr-023": {
+    "creativeId": "cr-023",
+    "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/00bb45d236a842f46c133aa8baf4fd0f.jpg?v=1729521586",
+    "status": "completed",
+    "current": {
+      "creativeId": "cr-023",
+      "hookType": "product-first",
+      "productVisibility": "Product prominence: dominant. Single studio image, portrait orientation, three-quarter-length shot of one model standing at a slight angle, centred against a plain backdrop",
+      "offerType": null,
+      "ctaType": "none",
+      "visualStyle": "studio",
+      "textDensity": "none",
+      "description": "A young man with dark tousled hair and black sunglasses stands against a plain light grey backdrop, wearing a blue, yellow and charcoal plaid button-up shirt with two chest flap pockets and rolled sleeves over a black tee and black trousers. He has one hand in his pocket and wears a black bracelet on his other wrist.",
+      "modelVersion": "anthropic/claude-sonnet-5.5",
+      "createdAt": "2026-10-26T17:58:30.796Z",
+      "productProminence": "dominant",
+      "vision": {
+        "observations": {
+          "format_composition": "Single studio image, portrait orientation, three-quarter-length shot of one model standing at a slight angle, centred against a plain backdrop",
+          "garments": [
+            {
+              "type": "Button-up overshirt / shirt with collar",
+              "colour": "Blue with yellow and dark charcoal/black check lines",
+              "pattern": "Large plaid / check with a visibly textured weave",
+              "details": "Two chest flap pockets with button closures, front button placket with dark buttons, sleeves rolled up to the forearms, spread collar"
+            },
+            {
+              "type": "T-shirt (worn underneath)",
+              "colour": "Black",
+              "pattern": null,
+              "details": "Crew neckline visible at the chest opening"
+            },
+            {
+              "type": "Trousers",
+              "colour": "Black",
+              "pattern": null,
+              "details": "Partly visible at the bottom of the frame; one hand in the pocket"
+            }
+          ],
+          "product_prominence": "dominant",
+          "people": "one",
+          "background": "Plain light grey seamless studio backdrop",
+          "visual_style": "studio",
+          "visible_text": [],
+          "offer_text": null,
+          "cta_text": null,
+          "text_density": "none"
+        },
+        "interpretations": {
+          "creative_angle": "A catalogue-style product shot presenting the bold blue and yellow plaid shirt as a layering piece styled over a black tee and black trousers, with a relaxed, casual attitude.",
+          "rationale": "The shirt fills most of the frame, its pattern is the strongest visual element, the neutral grey backdrop keeps attention on it, and the black tee, black trousers, sunglasses and bracelet read as supporting styling pieces. The relaxed pose, rolled sleeves and hand in the pocket suggest casual wear."
+        },
+        "uncertain": [
+          {
+            "attribute": "Fabric / material",
+            "reason": "Texture is visible but the fibre composition cannot be determined from the image"
+          },
+          {
+            "attribute": "Exact colour",
+            "reason": "Studio lighting may shift the blue, yellow and charcoal tones from the true product colour"
+          },
+          {
+            "attribute": "Fit name",
+            "reason": "No label or text indicates the cut; it looks relaxed but this is not confirmed"
+          },
+          {
+            "attribute": "Product name, price and availability",
+            "reason": "No text or overlay in the image"
+          },
+          {
+            "attribute": "Back and side details",
+            "reason": "Only the front, at a three-quarter angle, is shown"
+          }
+        ]
+      }
+    },
+    "lastAttempt": {
+      "at": "2026-10-26T17:58:18.523Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 12273,
+      "outcome": "completed",
+      "attempts": 1,
+      "responseId": "gen-1793037499-jzV1NlGQy6joCcw3jFci",
+      "usage": {
+        "promptTokens": 3141,
+        "completionTokens": 899,
+        "cost": 0.015272,
+        "cachedPromptTokens": 0
+      },
+      "error": null
+    }
+  },
+  "cr-024": {
+    "creativeId": "cr-024",
+    "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mss4632-05_1.jpg?v=1772731767",
+    "status": "completed",
+    "current": {
+      "creativeId": "cr-024",
+      "hookType": "model-first",
+      "productVisibility": "Product prominence: dominant. Single portrait-orientation studio image of a seated male model, three-quarter crop from head to knees and lower legs, placed slightly right of centre on a black folding chair. No collage or text panel.",
+      "offerType": null,
+      "ctaType": "none",
+      "visualStyle": "studio",
+      "textDensity": "none",
+      "description": "A male model sits sideways on a black folding chair against a plain white studio backdrop, wearing a dark navy button-down shirt with rolled sleeves and washed khaki wide-leg trousers. He holds a cream cap on his knee and looks off to the side.",
+      "modelVersion": "anthropic/claude-sonnet-5.5",
+      "createdAt": "2026-10-26T17:58:42.649Z",
+      "productProminence": "dominant",
+      "vision": {
+        "observations": {
+          "format_composition": "Single portrait-orientation studio image of a seated male model, three-quarter crop from head to knees and lower legs, placed slightly right of centre on a black folding chair. No collage or text panel.",
+          "garments": [
+            {
+              "type": "Button-down shirt",
+              "colour": "Dark navy / near-black",
+              "pattern": "Solid",
+              "details": "Long sleeves rolled to the forearm, button-down collar, front button placket worn open at the neck with several buttons undone, single chest patch pocket on the wearer's left, relaxed drape"
+            },
+            {
+              "type": "Wide-leg trousers/jeans",
+              "colour": "Washed khaki / sand beige",
+              "pattern": "Solid with a faded wash effect",
+              "details": "Loose, wide straight leg, visible seam and pocket details, hem falls over the ankles"
+            },
+            {
+              "type": "Cap",
+              "colour": "Off-white / cream",
+              "pattern": null,
+              "details": "Held against the thigh, with small red lettering partly visible on the side; mostly obscured"
+            },
+            {
+              "type": "Socks",
+              "colour": "White",
+              "pattern": "Solid",
+              "details": "Partly visible at the ankle"
+            },
+            {
+              "type": "Necklace",
+              "colour": "Silver",
+              "pattern": null,
+              "details": "Thin chain visible at the open collar"
+            }
+          ],
+          "product_prominence": "dominant",
+          "people": "one",
+          "background": "Plain white/light grey seamless studio backdrop with a black metal folding chair as the only prop.",
+          "visual_style": "studio",
+          "visible_text": [],
+          "offer_text": null,
+          "cta_text": null,
+          "text_density": "none"
+        },
+        "interpretations": {
+          "creative_angle": "Casual-smart styling of a dark button-down shirt with relaxed khaki wide-leg bottoms, presented as an effortless, modern everyday look.",
+          "rationale": "The model sits in a relaxed pose, looking away from the camera, with rolled sleeves, an open collar, a cap in hand and wide-leg trousers. The clean studio backdrop and single chair keep attention on the outfit."
+        },
+        "uncertain": [
+          {
+            "attribute": "Fabric of the shirt",
+            "reason": "The surface looks slightly textured, but the material cannot be determined from the image."
+          },
+          {
+            "attribute": "Exact shirt colour",
+            "reason": "Studio lighting makes it read as dark navy or black; the true shade cannot be confirmed."
+          },
+          {
+            "attribute": "Fit name",
+            "reason": "No label or text indicates the fit."
+          },
+          {
+            "attribute": "Product name, price and offers",
+            "reason": "No text or overlay is present in the image."
+          },
+          {
+            "attribute": "Cap branding",
+            "reason": "Only a small fragment of red lettering is visible and it is not legible."
+          },
+          {
+            "attribute": "Full outfit/footwear",
+            "reason": "The crop ends at the lower legs, so shoes are not visible."
+          }
+        ]
+      }
+    },
+    "lastAttempt": {
+      "at": "2026-10-26T17:58:30.800Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 11849,
+      "outcome": "completed",
+      "attempts": 1,
+      "responseId": "gen-1793037511-El4I17Uoa51zjJBMrYlT",
+      "usage": {
+        "promptTokens": 3141,
+        "completionTokens": 1022,
+        "cost": 0.016502,
+        "cachedPromptTokens": 0
+      },
+      "error": null
+    }
+  },
+  "cr-025": {
+    "creativeId": "cr-025",
+    "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mst3167-01_1.jpg?v=1764006426",
+    "status": "completed",
+    "current": {
+      "creativeId": "cr-025",
+      "hookType": "model-first",
+      "productVisibility": "Product prominence: dominant. Single vertical studio image of one model, cropped from head to mid-thigh, posed leaning against a plain wall with hands resting near the hips. No overlays or panels.",
+      "offerType": null,
+      "ctaType": "none",
+      "visualStyle": "studio",
+      "textDensity": "low",
+      "description": "A male model with a red cap and dark jeans leans against a white wall wearing an oversized black t-shirt. The shirt has a large maroon graphic of birds in flight with 'KAIZEN' lettering.",
+      "modelVersion": "anthropic/claude-sonnet-5.5",
+      "createdAt": "2026-10-26T17:58:54.016Z",
+      "productProminence": "dominant",
+      "vision": {
+        "observations": {
+          "format_composition": "Single vertical studio image of one model, cropped from head to mid-thigh, posed leaning against a plain wall with hands resting near the hips. No overlays or panels.",
+          "garments": [
+            {
+              "type": "oversized short-sleeve crew-neck t-shirt",
+              "colour": "black",
+              "pattern": "large graphic print on the chest: a maroon/dusty-rose rectangular panel with a blurred edge, showing two birds of prey in flight and a circular emblem with a Chinese character",
+              "details": "Drop shoulders, ribbed crew neckline, boxy silhouette. Print text reads partially 'KAIZEN' and '...LOSOPHY' / 'IMPROVEMENT'."
+            },
+            {
+              "type": "baseball cap",
+              "colour": "red",
+              "pattern": null,
+              "details": "Soft washed unstructured cap with small tonal embroidery on the front panel; text is not legible."
+            },
+            {
+              "type": "jeans",
+              "colour": "dark blue washed denim",
+              "pattern": null,
+              "details": "Relaxed or straight leg, only partly visible from waist to thigh."
+            },
+            {
+              "type": "wrist bracelet",
+              "colour": "black",
+              "pattern": null,
+              "details": "Black leather-style multi-strand bracelet with a silver metal clasp."
+            }
+          ],
+          "product_prominence": "dominant",
+          "people": "one",
+          "background": "Plain white or off-white studio wall with soft, even lighting.",
+          "visual_style": "studio",
+          "visible_text": [
+            "KAIZEN",
+            "IMPROVEMENT"
+          ],
+          "offer_text": null,
+          "cta_text": null,
+          "text_density": "low"
+        },
+        "interpretations": {
+          "creative_angle": "Streetwear-style graphic tee presented as a casual, relaxed outfit. The focus is on the bold Kaizen-themed artwork and the oversized fit.",
+          "rationale": "The large chest graphic with the bird illustration and the word 'KAIZEN' fills the centre of the frame. The model's relaxed, leaning pose, the red cap, the dark denim and the tattoo give it a casual street feel. The clean white backdrop keeps attention on the print."
+        },
+        "uncertain": [
+          {
+            "attribute": "fabric",
+            "reason": "Material cannot be determined from the image."
+          },
+          {
+            "attribute": "fit name",
+            "reason": "The garment looks oversized, but no fit label is visible."
+          },
+          {
+            "attribute": "exact print wording",
+            "reason": "Parts of the print text are cropped, curved or hidden by the artwork, so the full wording is unclear."
+          },
+          {
+            "attribute": "exact colours",
+            "reason": "Studio lighting may affect how the black, maroon and red appear."
+          },
+          {
+            "attribute": "back or other views",
+            "reason": "Only the front view is shown."
+          },
+          {
+            "attribute": "price or offer",
+            "reason": "No price or offer information appears in the image."
+          }
+        ]
+      }
+    },
+    "lastAttempt": {
+      "at": "2026-10-26T17:58:42.651Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 11365,
+      "outcome": "completed",
+      "attempts": 1,
+      "responseId": "gen-1793037523-o7LHIg97HFpz9iCjJW1W",
+      "usage": {
+        "promptTokens": 3141,
+        "completionTokens": 997,
+        "cost": 0.016252,
+        "cachedPromptTokens": 0
+      },
+      "error": null
+    }
+  },
+  "cr-026": {
+    "creativeId": "cr-026",
+    "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mtlx0017-03_1.jpg?v=1764957928",
+    "status": "completed",
+    "current": {
+      "creativeId": "cr-026",
+      "hookType": "product-first",
+      "productVisibility": "Product prominence: dominant. Single studio image of a model cropped from the chest down to the feet, standing front-facing with one hand in a pocket and the other hanging at the side. The trousers fill most of the frame.",
+      "offerType": null,
+      "ctaType": "none",
+      "visualStyle": "studio",
+      "textDensity": "none",
+      "description": "A studio shot of a model cropped from chest to feet, wearing brown pleated wide-leg trousers with a dark brown belt, an open blue and grey plaid shirt over a white top, and dark brown loafers. The background is plain light grey and there is no text.",
+      "modelVersion": "anthropic/claude-sonnet-5.5",
+      "createdAt": "2026-10-26T17:59:02.668Z",
+      "productProminence": "dominant",
+      "vision": {
+        "observations": {
+          "format_composition": "Single studio image of a model cropped from the chest down to the feet, standing front-facing with one hand in a pocket and the other hanging at the side. The trousers fill most of the frame.",
+          "garments": [
+            {
+              "type": "trousers",
+              "colour": "brown / tan",
+              "pattern": "solid",
+              "details": "Front pleat, centre crease, zip fly with hook closure, belt loops, slanted side pocket, wide straight leg, full length with a slight break at the hem"
+            },
+            {
+              "type": "shirt (open, worn as overshirt)",
+              "colour": "blue and dark grey",
+              "pattern": "plaid / check",
+              "details": "Buttoned cuffs with sleeves rolled up to the forearm, worn open over a white top"
+            },
+            {
+              "type": "t-shirt or inner top",
+              "colour": "white",
+              "pattern": "solid",
+              "details": "Only partly visible at the chest and waist"
+            },
+            {
+              "type": "belt",
+              "colour": "dark brown",
+              "pattern": "solid",
+              "details": "Silver-toned buckle"
+            },
+            {
+              "type": "loafers",
+              "colour": "dark brown",
+              "pattern": "solid",
+              "details": "Leather-look penny loafers with a chunky dark sole, worn with white socks"
+            }
+          ],
+          "product_prominence": "dominant",
+          "people": "one",
+          "background": "Plain light grey seamless studio backdrop with soft shadow on the floor",
+          "visual_style": "studio",
+          "visible_text": [],
+          "offer_text": null,
+          "cta_text": null,
+          "text_density": "none"
+        },
+        "interpretations": {
+          "creative_angle": "Presents the brown pleated wide-leg trouser as a versatile smart-casual piece, styled with a casual plaid shirt and loafers.",
+          "rationale": "The tight crop on the trousers, the visible pleat and crease, and the plain backdrop focus attention on the garment. The plaid shirt, watch, rings and loafers suggest a styled casual-meets-formal look."
+        },
+        "uncertain": [
+          {
+            "attribute": "fabric",
+            "reason": "Material cannot be confirmed from the image; it only looks like a smooth woven finish."
+          },
+          {
+            "attribute": "exact colour",
+            "reason": "The shade may be shifted by studio lighting and image processing."
+          },
+          {
+            "attribute": "fit name",
+            "reason": "No label or text states the fit. The wide straight leg is only a visual impression."
+          },
+          {
+            "attribute": "price and offer",
+            "reason": "No price, offer or text overlay is visible."
+          },
+          {
+            "attribute": "back and side details",
+            "reason": "Only the front view is shown, so rear pockets and other features are not visible."
+          },
+          {
+            "attribute": "model face and full outfit",
+            "reason": "The image is cropped at the chest, so the face and upper styling are not visible."
+          }
+        ]
+      }
+    },
+    "lastAttempt": {
+      "at": "2026-10-26T17:58:54.019Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 8650,
+      "outcome": "completed",
+      "attempts": 1,
+      "responseId": "gen-1793037534-c2FhIQIuA2iwLLNyuVlJ",
+      "usage": {
+        "promptTokens": 3141,
+        "completionTokens": 970,
+        "cost": 0.015982,
+        "cachedPromptTokens": 0
+      },
+      "error": null
+    }
+  },
+  "cr-027": {
+    "creativeId": "cr-027",
+    "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MCRT0012-02_9.jpg?v=1782287928",
+    "status": "completed",
+    "current": {
+      "creativeId": "cr-027",
+      "hookType": "model-first",
+      "productVisibility": "Product prominence: dominant. Single portrait-orientation photograph of one male model, three-quarter length, leaning against a stone wall with arms crossed, centred in frame. No text overlays or graphic elements.",
+      "offerType": null,
+      "ctaType": "none",
+      "visualStyle": "street",
+      "textDensity": "none",
+      "description": "A young man with wavy light-brown hair leans against a beige stone wall with arms crossed, wearing a lavender textured knit polo, black trousers, black leather belt and silver watch. The scene is sunlit with a dark green glass panel and cobblestones in the background, and there is no text.",
+      "modelVersion": "anthropic/claude-sonnet-5.5",
+      "createdAt": "2026-10-26T17:59:13.024Z",
+      "productProminence": "dominant",
+      "vision": {
+        "observations": {
+          "format_composition": "Single portrait-orientation photograph of one male model, three-quarter length, leaning against a stone wall with arms crossed, centred in frame. No text overlays or graphic elements.",
+          "garments": [
+            {
+              "type": "short-sleeve knit polo shirt",
+              "colour": "muted lavender / dusty purple",
+              "pattern": "textured open-knit or honeycomb-style surface",
+              "details": "Fold-over collar, short button placket with matching purple buttons, ribbed sleeve cuffs, regular hem tucked in at waist"
+            },
+            {
+              "type": "trousers",
+              "colour": "black",
+              "pattern": "solid",
+              "details": "Relaxed, straight or wide leg with a visible front crease, worn with a black leather belt with a silver rectangular buckle"
+            }
+          ],
+          "product_prominence": "dominant",
+          "people": "one",
+          "background": "Pale beige travertine-style stone wall with horizontal joints, dark green glass window or door panel on the right, and cobblestone paving at bottom right; strong sunlight casting shadows.",
+          "visual_style": "street",
+          "visible_text": [],
+          "offer_text": null,
+          "cta_text": null,
+          "text_density": "none"
+        },
+        "interpretations": {
+          "creative_angle": "Smart-casual, elevated summer styling: a textured knit polo paired with tailored black trousers in an urban, sunlit architectural setting, suggesting a refined everyday or office-to-evening look.",
+          "rationale": "Rests on the polo being centred and well lit, the tailored black trousers and leather belt, the silver watch accessory, and the clean stone and glass urban backdrop with hard sunlight."
+        },
+        "uncertain": [
+          {
+            "attribute": "fabric composition",
+            "reason": "Knit texture is visible but material (cotton, blend, etc.) cannot be determined from the image."
+          },
+          {
+            "attribute": "exact colour",
+            "reason": "Lavender tone may be affected by strong sunlight and shadow, so true product colour may differ."
+          },
+          {
+            "attribute": "fit name / size",
+            "reason": "No label or text is visible; fit is only judged visually."
+          },
+          {
+            "attribute": "product back and details",
+            "reason": "Only the front view is shown, and arms cover part of the torso."
+          },
+          {
+            "attribute": "price or offer",
+            "reason": "No price, discount or promotional wording appears in the image."
+          },
+          {
+            "attribute": "brand presence",
+            "reason": "No logo or branding is visible in the frame."
+          }
+        ]
+      }
+    },
+    "lastAttempt": {
+      "at": "2026-10-26T17:59:02.672Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 10352,
+      "outcome": "completed",
+      "attempts": 1,
+      "responseId": "gen-1793037543-F1KCrMM3lLLVwWHU8Pcj",
+      "usage": {
+        "promptTokens": 3141,
+        "completionTokens": 894,
+        "cost": 0.015222,
+        "cachedPromptTokens": 0
+      },
+      "error": null
+    }
+  },
+  "cr-028": {
+    "creativeId": "cr-028",
+    "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1001ea357c74ca3fa869bf48b807616d.jpg?v=1732603846",
+    "status": "completed",
+    "current": {
+      "creativeId": "cr-028",
+      "hookType": "product-first",
+      "productVisibility": "Product prominence: dominant. Single studio image, vertical crop, of a man photographed from behind and cropped at the head and hips. His hands rest on his lower back, which shows off the back print.",
+      "offerType": null,
+      "ctaType": "none",
+      "visualStyle": "studio",
+      "textDensity": "low",
+      "description": "A man in a backwards beige cap and a black short-sleeve t-shirt faces away from the camera against a light grey backdrop. The shirt's back print has the title \"CUPID & PSYCHE\", an illustrated winged figure, the word \"TRIUMPH\" and a small paragraph of text.",
+      "modelVersion": "anthropic/claude-sonnet-5.5",
+      "createdAt": "2026-10-26T17:59:22.666Z",
+      "productProminence": "dominant",
+      "vision": {
+        "observations": {
+          "format_composition": "Single studio image, vertical crop, of a man photographed from behind and cropped at the head and hips. His hands rest on his lower back, which shows off the back print.",
+          "garments": [
+            {
+              "type": "T-shirt",
+              "colour": "Black",
+              "pattern": "Large back graphic print",
+              "details": "Short sleeves and a crew neckline. The back print has a quoted title at the top, an illustrated winged male figure in beige and cream tones in the centre, a large white block word below it, and a small paragraph of white text at the bottom."
+            },
+            {
+              "type": "Cap",
+              "colour": "Beige/khaki",
+              "pattern": null,
+              "details": "Worn backwards with the adjustable strap and buckle visible at the back; washed look"
+            },
+            {
+              "type": "Jeans",
+              "colour": "Dark blue",
+              "pattern": null,
+              "details": "Only the waistband and top of the pockets are visible at the bottom of the frame"
+            }
+          ],
+          "product_prominence": "dominant",
+          "people": "one",
+          "background": "Plain light grey studio backdrop",
+          "visual_style": "studio",
+          "visible_text": [
+            "\"CUPID & PSYCHE\"",
+            "TRIUMPH",
+            "In the land of ancient Greece, there lived Eros, the god of love."
+          ],
+          "offer_text": null,
+          "cta_text": null,
+          "text_density": "low"
+        },
+        "interpretations": {
+          "creative_angle": "A showcase of the back graphic on the tee, built around a mythology and art theme (Cupid and Psyche, 'Triumph'). The model's turned-away pose is meant to put the print front and centre.",
+          "rationale": "The framing is a back view and the print takes up most of the frame. The title, the winged figure illustration and the short story text all point to a storytelling graphic, and the plain grey backdrop keeps attention on the shirt."
+        },
+        "uncertain": [
+          {
+            "attribute": "Fabric and weight",
+            "reason": "These cannot be determined from a photograph."
+          },
+          {
+            "attribute": "Fit name",
+            "reason": "The fit is not labelled. The shirt looks relaxed on the model, but no fit name is visible."
+          },
+          {
+            "attribute": "Front design of the t-shirt",
+            "reason": "Only the back view is shown."
+          },
+          {
+            "attribute": "Full body copy of the print",
+            "reason": "The small paragraph is only partly legible at this resolution."
+          },
+          {
+            "attribute": "Exact colours",
+            "reason": "Studio lighting may alter how the beige and black tones appear."
+          },
+          {
+            "attribute": "Price and offers",
+            "reason": "No price or offer text appears in the image."
+          }
+        ]
+      }
+    },
+    "lastAttempt": {
+      "at": "2026-10-26T17:59:13.030Z",
+      "model": "anthropic/claude-sonnet-5.5",
+      "durationMs": 9637,
+      "outcome": "completed",
+      "attempts": 1,
+      "responseId": "gen-1793037553-DuuiBGotj3bSNh8sAZtL",
+      "usage": {
+        "promptTokens": 3141,
+        "completionTokens": 934,
+        "cost": 0.015622,
+        "cachedPromptTokens": 0
+      },
+      "error": null
+    }
+  }
+}

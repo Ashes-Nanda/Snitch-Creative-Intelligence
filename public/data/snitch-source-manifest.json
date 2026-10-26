@@ -1,0 +1,986 @@
+{
+  "manifestVersion": "1.0.0",
+  "brand": "SNITCH (snitch.com)",
+  "retrievedAt": "2026-10-26T17:38:05.454Z",
+  "assetCount": 28,
+  "provenanceNotice": {
+    "brand": "SNITCH (snitch.com)",
+    "syntheticPerformanceDisclaimer": "All campaign performance metrics (spend, impressions, clicks, CTR, conversions, revenue, ROAS) are synthetic demo data generated for workflow demonstration. They do not represent confidential or commercial ad performance of SNITCH.",
+    "dataOrigins": {
+      "assets": "Product images from official snitch.com product pages, and ad creatives found in a third-party ad directory (zooptrack). Ads are not confirmed in the Meta Ad Library.",
+      "performance": "Deterministic synthetic simulation"
+    }
+  },
+  "sourcesCovered": [
+    {
+      "sourceType": "official_product_page",
+      "description": "Official SNITCH Product Pages and XML Sitemaps (snitch.com)",
+      "baseUrl": "https://www.snitch.com/",
+      "assetCount": 14
+    },
+    {
+      "sourceType": "third_party_ad_directory",
+      "description": "zooptrack.co.in SNITCH brand page (third-party directory of public ads)",
+      "baseUrl": "https://www.zooptrack.co.in/brand/snitch",
+      "assetCount": 14
+    }
+  ],
+  "assets": [
+    {
+      "creativeId": "cr-001",
+      "name": "Snitch Quick Date-Ready Styles – Gurugram",
+      "assetType": "static_ad",
+      "category": "Shirts",
+      "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/6c/6ce152113b0395568a1dd82913f09fe840eab9588a7fb09d8bc427cddabd3a9a.webp",
+      "productUrl": null,
+      "price": null,
+      "currency": null,
+      "adCopy": "Get your perfect date look delivered in a flash. Snitch Quick is now live in Gurugram, bringing date-ready styles to you in just 60 minutes!",
+      "attributes": null,
+      "source": {
+        "sourceType": "third_party_ad_directory",
+        "sourceUrl": "https://www.zooptrack.co.in/brand/snitch",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "partially_verified",
+        "notes": [
+          "Image found on the third-party ad directory page.",
+          "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+          "Ad copy matches the directory page.",
+          "Price and product attributes are not shown in ads and were dropped."
+        ]
+      },
+      "candidate": {
+        "price": 1999,
+        "attributes": {
+          "fit": "Slim Fit",
+          "color": "Brown / Neutral",
+          "fabric": "Cotton Linen"
+        },
+        "adCopy": "Get your perfect date look delivered in a flash. Snitch Quick is now live in Gurugram, bringing date-ready styles to you in just 60 minutes!"
+      }
+    },
+    {
+      "creativeId": "cr-002",
+      "name": "The Tennis Club Polo – Clean Collar",
+      "assetType": "static_ad",
+      "category": "T-Shirts / Polos",
+      "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/1a/1a49f8f9ffc58e3747ab479ba3854f9d41ea25cfb70d2fdc1f904c2b9fe6c35d.webp",
+      "productUrl": null,
+      "price": null,
+      "currency": null,
+      "adCopy": "🎾 The polo that says everything without saying a word. The Tennis Club Polo is here. Clean collar, premium feel, built for the man who carries himself with ease.",
+      "attributes": null,
+      "source": {
+        "sourceType": "third_party_ad_directory",
+        "sourceUrl": "https://www.zooptrack.co.in/brand/snitch",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "partially_verified",
+        "notes": [
+          "Image found on the third-party ad directory page.",
+          "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+          "Ad copy matches the directory page.",
+          "Price and product attributes are not shown in ads and were dropped."
+        ]
+      },
+      "candidate": {
+        "price": 1499,
+        "attributes": {
+          "fit": "Relaxed Fit",
+          "color": "Vintage Off-White",
+          "fabric": "100% Pique Cotton"
+        },
+        "adCopy": "🎾 The polo that says everything without saying a word. The Tennis Club Polo is here. Clean collar, premium feel, built for the man who carries himself with ease."
+      }
+    },
+    {
+      "creativeId": "cr-003",
+      "name": "Snitch 108th Store Launch – Airport Road",
+      "assetType": "video_ad",
+      "category": "Jackets",
+      "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/43/4325f2eeb022af78e785bc4e8f15d646ab537ba91f026669e1ec019e9b019ff7.webp",
+      "productUrl": null,
+      "price": null,
+      "currency": null,
+      "adCopy": "Bengaluru, the drip just got real 😮🔥 SNITCH has officially opened its 108th store on Airport Road ✈️🔥 Bold menswear, sharp fits & everyday confidence.",
+      "attributes": null,
+      "source": {
+        "sourceType": "third_party_ad_directory",
+        "sourceUrl": "https://www.zooptrack.co.in/brand/snitch",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "partially_verified",
+        "notes": [
+          "Image found on the third-party ad directory page.",
+          "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+          "Ad copy matches the directory page.",
+          "Price and product attributes are not shown in ads and were dropped."
+        ]
+      },
+      "candidate": {
+        "price": 2999,
+        "attributes": {
+          "fit": "Boxy Fit",
+          "color": "Black / Olive",
+          "fabric": "Structured Cotton Twill"
+        },
+        "adCopy": "Bengaluru, the drip just got real 😮🔥 SNITCH has officially opened its 108th store on Airport Road ✈️🔥 Bold menswear, sharp fits & everyday confidence."
+      }
+    },
+    {
+      "creativeId": "cr-004",
+      "name": "Wardrobe Upgrade – Tech-Fit Carousel",
+      "assetType": "carousel",
+      "category": "Trousers",
+      "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/78/78f74ba9d36c5343ed69b4b995b2d6647bf7012b571ea04ec97a5bde2d3298c2.webp",
+      "productUrl": null,
+      "price": null,
+      "currency": null,
+      "adCopy": null,
+      "attributes": null,
+      "source": {
+        "sourceType": "third_party_ad_directory",
+        "sourceUrl": "https://www.zooptrack.co.in/brand/snitch",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "partially_verified",
+        "notes": [
+          "Image found on the third-party ad directory page.",
+          "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+          "Ad copy could not be confirmed, so it was dropped.",
+          "Price and product attributes are not shown in ads and were dropped."
+        ]
+      },
+      "candidate": {
+        "price": 1999,
+        "attributes": {
+          "fit": "Relaxed Fit",
+          "color": "Charcoal Grey",
+          "fabric": "Stretch Poly-Viscose"
+        },
+        "adCopy": "🚨Your wardrobe upgrade starts here. The Snitch Collection is where trend meets tech-fit. Built for movement, styled for everyday impact."
+      }
+    },
+    {
+      "creativeId": "cr-005",
+      "name": "Best Sellers Limited Drop – Up to 15% OFF",
+      "assetType": "carousel",
+      "category": "Shirts",
+      "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/54/548dcbe7dcaa85d6feddd49be54922a6d9f6b7946573d8c217d250607c678ca7.webp",
+      "productUrl": null,
+      "price": null,
+      "currency": null,
+      "adCopy": "Upto 15% OFF on the best selling limited stock products. These won't be restocked again so get them today!",
+      "attributes": null,
+      "source": {
+        "sourceType": "third_party_ad_directory",
+        "sourceUrl": "https://www.zooptrack.co.in/brand/snitch",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "partially_verified",
+        "notes": [
+          "Image found on the third-party ad directory page.",
+          "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+          "Ad copy matches the directory page.",
+          "Price and product attributes are not shown in ads and were dropped."
+        ]
+      },
+      "candidate": {
+        "price": 1799,
+        "attributes": {
+          "fit": "Slim Fit",
+          "color": "Pastel Blue",
+          "fabric": "100% Breathable Cotton"
+        },
+        "adCopy": "Upto 15% OFF on the best selling limited stock products. These won't be restocked again so get them today!"
+      }
+    },
+    {
+      "creativeId": "cr-006",
+      "name": "Snitch Quick Spontaneous Look – Bengaluru",
+      "assetType": "video_ad",
+      "category": "T-Shirts",
+      "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/9d/9db4bf564bf19ed975784a4796f298716a0910732d20c072d0c953ac3ca32ea9.webp",
+      "productUrl": null,
+      "price": null,
+      "currency": null,
+      "adCopy": "Snitch Quick is now live in Bengaluru! ✨ Get your date-ready looks delivered in just 60 minutes. Perfect for those spontaneous plans!",
+      "attributes": null,
+      "source": {
+        "sourceType": "third_party_ad_directory",
+        "sourceUrl": "https://www.zooptrack.co.in/brand/snitch",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "partially_verified",
+        "notes": [
+          "Image found on the third-party ad directory page.",
+          "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+          "Ad copy matches the directory page.",
+          "Price and product attributes are not shown in ads and were dropped."
+        ]
+      },
+      "candidate": {
+        "price": 1299,
+        "attributes": {
+          "fit": "Oversized Fit",
+          "color": "Onyx Black",
+          "fabric": "240 GSM Heavyweight Cotton"
+        },
+        "adCopy": "Snitch Quick is now live in Bengaluru! ✨ Get your date-ready looks delivered in just 60 minutes. Perfect for those spontaneous plans!"
+      }
+    },
+    {
+      "creativeId": "cr-007",
+      "name": "Black Mid Rise Relaxed Trousers – Evergreen",
+      "assetType": "static_ad",
+      "category": "Trousers",
+      "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/d3/d35384ecf7d04beda7124d31a8c83623e46dfe3f4ba1dbc03565f7c1c8cde848.webp",
+      "productUrl": null,
+      "price": null,
+      "currency": null,
+      "adCopy": null,
+      "attributes": null,
+      "source": {
+        "sourceType": "third_party_ad_directory",
+        "sourceUrl": "https://www.zooptrack.co.in/brand/snitch",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "partially_verified",
+        "notes": [
+          "Image found on the third-party ad directory page.",
+          "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+          "Ad copy could not be confirmed, so it was dropped.",
+          "Price and product attributes are not shown in ads and were dropped."
+        ]
+      },
+      "candidate": {
+        "price": 2199,
+        "attributes": {
+          "fit": "Relaxed Fit",
+          "color": "Jet Black",
+          "fabric": "Premium Lycra Blend"
+        },
+        "adCopy": "Black Mid Rise Relaxed Fit Trousers — effortless drape, structured silhouette for day-to-night transitions. Live for 464 days."
+      }
+    },
+    {
+      "creativeId": "cr-008",
+      "name": "All Style No Stress – Morning to Night Fit",
+      "assetType": "static_ad",
+      "category": "Jackets / Overshirts",
+      "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/73/73b3d264410f93517aa7dc43c72d6888d6409631e30431e5d417ea4d24f35b22.webp",
+      "productUrl": null,
+      "price": null,
+      "currency": null,
+      "adCopy": null,
+      "attributes": null,
+      "source": {
+        "sourceType": "third_party_ad_directory",
+        "sourceUrl": "https://www.zooptrack.co.in/brand/snitch",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "partially_verified",
+        "notes": [
+          "Image found on the third-party ad directory page.",
+          "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+          "Ad copy could not be confirmed, so it was dropped.",
+          "Price and product attributes are not shown in ads and were dropped."
+        ]
+      },
+      "candidate": {
+        "price": 3499,
+        "attributes": {
+          "fit": "Regular Fit",
+          "color": "Navy / Slate",
+          "fabric": "Wool Blend Flannel"
+        },
+        "adCopy": "All style. No stress. From effortless morning fits to late-night plans, discover contemporary layered aesthetics. Live for 444 days."
+      }
+    },
+    {
+      "creativeId": "cr-009",
+      "name": "Snitch Plus – India's Inclusive Fit Drop",
+      "assetType": "static_ad",
+      "category": "T-Shirts",
+      "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/63/63321670464c4f179240198b979d3edfd8fddc7c21249e5cd430d0430233a3dc.webp",
+      "productUrl": null,
+      "price": null,
+      "currency": null,
+      "adCopy": null,
+      "attributes": null,
+      "source": {
+        "sourceType": "third_party_ad_directory",
+        "sourceUrl": "https://www.zooptrack.co.in/brand/snitch",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "partially_verified",
+        "notes": [
+          "Image found on the third-party ad directory page.",
+          "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+          "Ad copy could not be confirmed, so it was dropped.",
+          "Price and product attributes are not shown in ads and were dropped."
+        ]
+      },
+      "candidate": {
+        "price": 1599,
+        "attributes": {
+          "fit": "Plus Size 3XL-6XL",
+          "color": "Sage Green",
+          "fabric": "100% Combed Cotton"
+        },
+        "adCopy": "Introducing Snitch Plus — India's largest plus size fashion collection. Style that fits without compromise. Live for 244 days."
+      }
+    },
+    {
+      "creativeId": "cr-010",
+      "name": "Snitch Plus – Oversized Silhouette & Dropped Shoulders",
+      "assetType": "carousel",
+      "category": "T-Shirts",
+      "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/6d/6dc5ac5c30c3a79c8e20bf989cc3c48677d46db7784be4df81c90ede22cb15b2.webp",
+      "productUrl": null,
+      "price": null,
+      "currency": null,
+      "adCopy": null,
+      "attributes": null,
+      "source": {
+        "sourceType": "third_party_ad_directory",
+        "sourceUrl": "https://www.zooptrack.co.in/brand/snitch",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "partially_verified",
+        "notes": [
+          "Image found on the third-party ad directory page.",
+          "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+          "Ad copy could not be confirmed, so it was dropped.",
+          "Price and product attributes are not shown in ads and were dropped."
+        ]
+      },
+      "candidate": {
+        "price": 1699,
+        "attributes": {
+          "fit": "Oversized Fit",
+          "color": "Off-White",
+          "fabric": "Cotton Jersey"
+        },
+        "adCopy": "Snitch Plus — Dropped shoulder cuts and breathable silhouettes engineered for modern everyday wear. Live for 244 days."
+      }
+    },
+    {
+      "creativeId": "cr-011",
+      "name": "Snitch Quick Date Night Delivery – Hyderabad",
+      "assetType": "static_ad",
+      "category": "Shirts",
+      "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/76/76a53dc3b6e160754c2f13f18223650c5909d136d11857a4eb0a110154fd9379.webp",
+      "productUrl": null,
+      "price": null,
+      "currency": null,
+      "adCopy": "Date night emergencies? Snitch Quick has you covered. Get your perfect look delivered in 60 mins, now live in Hyderabad!",
+      "attributes": null,
+      "source": {
+        "sourceType": "third_party_ad_directory",
+        "sourceUrl": "https://www.zooptrack.co.in/brand/snitch",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "partially_verified",
+        "notes": [
+          "Image found on the third-party ad directory page.",
+          "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+          "Ad copy matches the directory page.",
+          "Price and product attributes are not shown in ads and were dropped."
+        ]
+      },
+      "candidate": {
+        "price": 1899,
+        "attributes": {
+          "fit": "Slim Fit",
+          "color": "Wine Red",
+          "fabric": "Satin Finish Cotton"
+        },
+        "adCopy": "Date night emergencies? Snitch Quick has you covered. Get your perfect look delivered in 60 mins, now live in Hyderabad!"
+      }
+    },
+    {
+      "creativeId": "cr-012",
+      "name": "Snitch Quick Rapid Delivery – Delhi NCR",
+      "assetType": "static_ad",
+      "category": "T-Shirts",
+      "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/7e/7e2e0dd09bfe997f2981ccfe4b33bf64d69c56499308b8b76cdd3202fcdc7f58.webp",
+      "productUrl": null,
+      "price": null,
+      "currency": null,
+      "adCopy": "Get your perfect date-ready looks delivered right to your doorstep. Snitch Quick is now live in Delhi for rapid delivery!",
+      "attributes": null,
+      "source": {
+        "sourceType": "third_party_ad_directory",
+        "sourceUrl": "https://www.zooptrack.co.in/brand/snitch",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "partially_verified",
+        "notes": [
+          "Image found on the third-party ad directory page.",
+          "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+          "Ad copy matches the directory page.",
+          "Price and product attributes are not shown in ads and were dropped."
+        ]
+      },
+      "candidate": {
+        "price": 1199,
+        "attributes": {
+          "fit": "Box Fit",
+          "color": "Acid Wash Grey",
+          "fabric": "100% Cotton"
+        },
+        "adCopy": "Get your perfect date-ready looks delivered right to your doorstep. Snitch Quick is now live in Delhi for rapid delivery!"
+      }
+    },
+    {
+      "creativeId": "cr-013",
+      "name": "Snitch Plus – Stretch Comfort Denims",
+      "assetType": "video_ad",
+      "category": "Jeans",
+      "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/61/6124c6e820ee3235534bcb76e5bf45508f47fe1b73d1c5a68edf45db98e0d4e5.webp",
+      "productUrl": null,
+      "price": null,
+      "currency": null,
+      "adCopy": null,
+      "attributes": null,
+      "source": {
+        "sourceType": "third_party_ad_directory",
+        "sourceUrl": "https://www.zooptrack.co.in/brand/snitch",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "partially_verified",
+        "notes": [
+          "Image found on the third-party ad directory page.",
+          "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+          "Ad copy could not be confirmed, so it was dropped.",
+          "Price and product attributes are not shown in ads and were dropped."
+        ]
+      },
+      "candidate": {
+        "price": 2299,
+        "attributes": {
+          "fit": "Comfort Straight Fit",
+          "color": "Washed Indigo",
+          "fabric": "Stretch Denim"
+        },
+        "adCopy": "Snitch Plus — Stretch Trousers & Comfort Denims designed with maximum flex for unrestricted movement."
+      }
+    },
+    {
+      "creativeId": "cr-014",
+      "name": "Wear What's Next 60-Min Trends – Bengaluru",
+      "assetType": "video_ad",
+      "category": "Shirts",
+      "assetUrl": "https://www.zooptrack.co.in/m/s3/ads/ffa85ea45e8ef1129ef69ada4d10da6dddb16682d34699a0a08b14c3cf3a62d1.webp",
+      "productUrl": null,
+      "price": null,
+      "currency": null,
+      "adCopy": "Snitch Quick is now live in Bengaluru! Get the latest trends delivered in just 60 minutes. Wear what's next, faster than ever.",
+      "attributes": null,
+      "source": {
+        "sourceType": "third_party_ad_directory",
+        "sourceUrl": "https://www.zooptrack.co.in/brand/snitch",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "unavailable",
+        "notes": [
+          "Image URL returned 404.",
+          "Image found on the third-party ad directory page.",
+          "Not confirmed in the Meta Ad Library; no ad ID, start date or spend is available.",
+          "Ad copy matches the directory page.",
+          "Price and product attributes are not shown in ads and were dropped."
+        ]
+      },
+      "candidate": {
+        "price": 1999,
+        "attributes": {
+          "fit": "Cuban Collar Relaxed Fit",
+          "color": "Khaki Print",
+          "fabric": "100% Viscose"
+        },
+        "adCopy": "Snitch Quick is now live in Bengaluru! Get the latest trends delivered in just 60 minutes. Wear what's next, faster than ever."
+      }
+    },
+    {
+      "creativeId": "cr-015",
+      "name": "Slim-Fit Stretch Plus Size Jeans",
+      "assetType": "product_image",
+      "category": "Jeans",
+      "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_52204133-3376-40be-8d81-8641ce1b2c03.jpg?v=1783076033",
+      "productUrl": "https://www.snitch.com/men-jeans/slim-fit-stretch-washed-jeans-4bje006-02/9261366542498/buy",
+      "price": 2399,
+      "currency": "INR",
+      "adCopy": null,
+      "attributes": {
+        "fit": "Slim Fit"
+      },
+      "source": {
+        "sourceType": "official_product_page",
+        "sourceUrl": "https://www.snitch.com/men-jeans/slim-fit-stretch-washed-jeans-4bje006-02/9261366542498/buy",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "verified",
+        "notes": [
+          "Image appears on the product page.",
+          "Name taken from the product page (was “Slim-Fit Stretch Washed Jeans”).",
+          "Listed price read from the product page on 2026-10-26; prices change.",
+          "Earlier researched price (2299) did not match and was replaced.",
+          "Not stated in the product description, so dropped: color “Mid Wash Blue”, fabric “98% Cotton 2% Elastane”."
+        ]
+      },
+      "candidate": {
+        "price": 2299,
+        "attributes": {
+          "fit": "Slim Fit",
+          "color": "Mid Wash Blue",
+          "fabric": "98% Cotton 2% Elastane"
+        },
+        "adCopy": null
+      }
+    },
+    {
+      "creativeId": "cr-016",
+      "name": "1% Battery Embroidered Shirt",
+      "assetType": "product_image",
+      "category": "Shirts",
+      "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_11bbaf68-ee08-4178-9071-e554b3eceef1.jpg?v=1784116618",
+      "productUrl": "https://www.snitch.com/men-shirts/regular-fit-black-shirt-4sfs145-02/9269896904866/buy",
+      "price": 1399,
+      "currency": "INR",
+      "adCopy": null,
+      "attributes": null,
+      "source": {
+        "sourceType": "official_product_page",
+        "sourceUrl": "https://www.snitch.com/men-shirts/regular-fit-black-shirt-4sfs145-02/9269896904866/buy",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "verified",
+        "notes": [
+          "Image appears on the product page.",
+          "Name taken from the product page (was “1% Battery Embroidered Regular Fit Shirt”).",
+          "Listed price read from the product page on 2026-10-26; prices change.",
+          "Earlier researched price (1799) did not match and was replaced.",
+          "Not stated in the product description, so dropped: fit “Regular Fit”, color “Pitch Black”, fabric “100% Breathable Cotton”."
+        ]
+      },
+      "candidate": {
+        "price": 1799,
+        "attributes": {
+          "fit": "Regular Fit",
+          "color": "Pitch Black",
+          "fabric": "100% Breathable Cotton"
+        },
+        "adCopy": null
+      }
+    },
+    {
+      "creativeId": "cr-017",
+      "name": "100% Cotton Oversized Plus Size T-Shirt",
+      "assetType": "product_image",
+      "category": "T-Shirts",
+      "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MBGSS1233-04-3XL17.jpg?v=1772798074",
+      "productUrl": "https://www.snitch.com/men-t-shirts/100-cotton-oversized-plus-size-t-shirt-4mbgst1233-04/8883304202402/buy",
+      "price": 1104,
+      "currency": "INR",
+      "adCopy": null,
+      "attributes": null,
+      "source": {
+        "sourceType": "official_product_page",
+        "sourceUrl": "https://www.snitch.com/men-t-shirts/100-cotton-oversized-plus-size-t-shirt-4mbgst1233-04/8883304202402/buy",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "verified",
+        "notes": [
+          "Image appears on the product page.",
+          "Name taken from the product page (was “100% Cotton Oversized Heavyweight T-Shirt”).",
+          "Listed price read from the product page on 2026-10-26; prices change.",
+          "Earlier researched price (1299) did not match and was replaced.",
+          "Not stated in the product description, so dropped: fit “Oversized Fit”, color “Sage Mineral”, fabric “100% Cotton 240 GSM”."
+        ]
+      },
+      "candidate": {
+        "price": 1299,
+        "attributes": {
+          "fit": "Oversized Fit",
+          "color": "Sage Mineral",
+          "fabric": "100% Cotton 240 GSM"
+        },
+        "adCopy": null
+      }
+    },
+    {
+      "creativeId": "cr-018",
+      "name": "Pleated Regular Fit Gurkha Trousers",
+      "assetType": "product_image",
+      "category": "Trousers",
+      "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_139a6bf0-f0ac-43dc-98c7-318966a4a959.jpg?v=1760510861",
+      "productUrl": "https://www.snitch.com/men-trousers/regular-fit-black-trousers-4msr5386-03/8786284150946/buy",
+      "price": 1799,
+      "currency": "INR",
+      "adCopy": null,
+      "attributes": {
+        "color": "Black"
+      },
+      "source": {
+        "sourceType": "official_product_page",
+        "sourceUrl": "https://www.snitch.com/men-trousers/regular-fit-black-trousers-4msr5386-03/8786284150946/buy",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "verified",
+        "notes": [
+          "Image appears on the product page.",
+          "Listed price read from the product page on 2026-10-26; prices change.",
+          "Earlier researched price (2199) did not match and was replaced.",
+          "Not stated in the product description, so dropped: fit “Gurkha Pleated”, fabric “Polyester Viscose Blend”."
+        ]
+      },
+      "candidate": {
+        "price": 2199,
+        "attributes": {
+          "fit": "Gurkha Pleated",
+          "color": "Black",
+          "fabric": "Polyester Viscose Blend"
+        },
+        "adCopy": null
+      }
+    },
+    {
+      "creativeId": "cr-019",
+      "name": "Floral 100% Viscose Oversized Shirt",
+      "assetType": "product_image",
+      "category": "Shirts",
+      "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1_d3780651-bce7-41d5-8640-c3731f249e97.jpg?v=1784646542",
+      "productUrl": "https://www.snitch.com/men-shirts/floral-100-viscose-oversized-shirt-4shs044-16/9273197002914/buy",
+      "price": 1199,
+      "currency": "INR",
+      "adCopy": null,
+      "attributes": {
+        "fabric": "100% Viscose"
+      },
+      "source": {
+        "sourceType": "official_product_page",
+        "sourceUrl": "https://www.snitch.com/men-shirts/floral-100-viscose-oversized-shirt-4shs044-16/9273197002914/buy",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "verified",
+        "notes": [
+          "Image appears on the product page.",
+          "Name taken from the product page (was “Floral 100% Viscose Cuban Collar Shirt”).",
+          "Listed price read from the product page on 2026-10-26; prices change.",
+          "Earlier researched price (1899) did not match and was replaced.",
+          "Not stated in the product description, so dropped: fit “Boxy Cuban”, color “Floral Multi”."
+        ]
+      },
+      "candidate": {
+        "price": 1899,
+        "attributes": {
+          "fit": "Boxy Cuban",
+          "color": "Floral Multi",
+          "fabric": "100% Viscose"
+        },
+        "adCopy": null
+      }
+    },
+    {
+      "creativeId": "cr-020",
+      "name": "Slim Fit Stretch Stripes Luxe Shirt",
+      "assetType": "product_image",
+      "category": "Shirts",
+      "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mlx1222-01_1.jpg?v=1772731750",
+      "productUrl": "https://www.snitch.com/men-shirts/stripes-slim-fit-luxe-stretch-shirt-4mlx1222-01/8930526691490/buy",
+      "price": 1869,
+      "currency": "INR",
+      "adCopy": null,
+      "attributes": {
+        "fit": "Slim Fit"
+      },
+      "source": {
+        "sourceType": "official_product_page",
+        "sourceUrl": "https://www.snitch.com/men-shirts/stripes-slim-fit-luxe-stretch-shirt-4mlx1222-01/8930526691490/buy",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "verified",
+        "notes": [
+          "Image appears on the product page.",
+          "Listed price read from the product page on 2026-10-26; prices change.",
+          "Earlier researched price (1999) did not match and was replaced.",
+          "Not stated in the product description, so dropped: color “Navy Stripes”, fabric “Luxe Stretch Cotton”."
+        ]
+      },
+      "candidate": {
+        "price": 1999,
+        "attributes": {
+          "fit": "Slim Fit",
+          "color": "Navy Stripes",
+          "fabric": "Luxe Stretch Cotton"
+        },
+        "adCopy": null
+      }
+    },
+    {
+      "creativeId": "cr-021",
+      "name": "Black Textured Abstract Shirt",
+      "assetType": "product_image",
+      "category": "Shirts",
+      "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/f7967e6bd62dd33dd48ff492a94c2be9.webp?v=1724926999",
+      "productUrl": "https://www.snitch.com/men-shirts/black-textured-abstract-shirt-4mss3320-02/8475834024098/buy",
+      "price": 1268,
+      "currency": "INR",
+      "adCopy": null,
+      "attributes": {
+        "fit": "Slim Fit"
+      },
+      "source": {
+        "sourceType": "official_product_page",
+        "sourceUrl": "https://www.snitch.com/men-shirts/black-textured-abstract-shirt-4mss3320-02/8475834024098/buy",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "verified",
+        "notes": [
+          "Image appears on the product page.",
+          "Name taken from the product page (was “Black Textured Abstract Studio Shirt”).",
+          "Listed price read from the product page on 2026-10-26; prices change.",
+          "Earlier researched price (1999) did not match and was replaced.",
+          "Not stated in the product description, so dropped: color “Textured Black”, fabric “Jacquard Weave”."
+        ]
+      },
+      "candidate": {
+        "price": 1999,
+        "attributes": {
+          "fit": "Slim Fit",
+          "color": "Textured Black",
+          "fabric": "Jacquard Weave"
+        },
+        "adCopy": null
+      }
+    },
+    {
+      "creativeId": "cr-022",
+      "name": "Box Fit Textured Stripes Shirt",
+      "assetType": "product_image",
+      "category": "Shirts",
+      "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MSS4327-01-M8.jpg?v=1771239051",
+      "productUrl": "https://www.snitch.com/men-shirts/box-fit-textured-shirt-4mss4327-01/8763518353570/buy",
+      "price": 1104,
+      "currency": "INR",
+      "adCopy": null,
+      "attributes": {
+        "fit": "Box Fit"
+      },
+      "source": {
+        "sourceType": "official_product_page",
+        "sourceUrl": "https://www.snitch.com/men-shirts/box-fit-textured-shirt-4mss4327-01/8763518353570/buy",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "verified",
+        "notes": [
+          "Image appears on the product page.",
+          "Name taken from the product page (was “Box Fit Textured Stripes Casual Shirt”).",
+          "Listed price read from the product page on 2026-10-26; prices change.",
+          "Earlier researched price (1799) did not match and was replaced.",
+          "Not stated in the product description, so dropped: color “Cream Stripes”, fabric “Textured Cotton”."
+        ]
+      },
+      "candidate": {
+        "price": 1799,
+        "attributes": {
+          "fit": "Box Fit",
+          "color": "Cream Stripes",
+          "fabric": "Textured Cotton"
+        },
+        "adCopy": null
+      }
+    },
+    {
+      "creativeId": "cr-023",
+      "name": "Blue Flannel Checks Double Pocket Overshirt",
+      "assetType": "product_image",
+      "category": "Jackets / Overshirts",
+      "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/00bb45d236a842f46c133aa8baf4fd0f.jpg?v=1729521586",
+      "productUrl": "https://www.snitch.com/men-overshirt/blue-flannel-checks-double-pocket-overshirt-4mss3575-06/8521461727394/buy",
+      "price": 849,
+      "currency": "INR",
+      "adCopy": null,
+      "attributes": null,
+      "source": {
+        "sourceType": "official_product_page",
+        "sourceUrl": "https://www.snitch.com/men-overshirt/blue-flannel-checks-double-pocket-overshirt-4mss3575-06/8521461727394/buy",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "verified",
+        "notes": [
+          "Image appears on the product page.",
+          "Listed price read from the product page on 2026-10-26; prices change.",
+          "Earlier researched price (2499) did not match and was replaced.",
+          "Not stated in the product description, so dropped: fit “Relaxed Fit”, color “Blue Plaid”, fabric “Brushed Flannel Cotton”."
+        ]
+      },
+      "candidate": {
+        "price": 2499,
+        "attributes": {
+          "fit": "Relaxed Fit",
+          "color": "Blue Plaid",
+          "fabric": "Brushed Flannel Cotton"
+        },
+        "adCopy": null
+      }
+    },
+    {
+      "creativeId": "cr-024",
+      "name": "Navy Blue Regular Fit Shirt",
+      "assetType": "product_image",
+      "category": "Shirts",
+      "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mss4632-05_1.jpg?v=1772731767",
+      "productUrl": "https://www.snitch.com/men-shirts/navy-blue-regular-fit-shirt-4mss4632-05/8930527084706/buy",
+      "price": 1039,
+      "currency": "INR",
+      "adCopy": null,
+      "attributes": {
+        "fit": "Regular Fit"
+      },
+      "source": {
+        "sourceType": "official_product_page",
+        "sourceUrl": "https://www.snitch.com/men-shirts/navy-blue-regular-fit-shirt-4mss4632-05/8930527084706/buy",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "verified",
+        "notes": [
+          "Image appears on the product page.",
+          "Name taken from the product page (was “Navy Blue Regular Fit Office Shirt”).",
+          "Listed price read from the product page on 2026-10-26; prices change.",
+          "Earlier researched price (1699) did not match and was replaced.",
+          "Not stated in the product description, so dropped: color “Deep Navy”, fabric “100% Giza Cotton”."
+        ]
+      },
+      "candidate": {
+        "price": 1699,
+        "attributes": {
+          "fit": "Regular Fit",
+          "color": "Deep Navy",
+          "fabric": "100% Giza Cotton"
+        },
+        "adCopy": null
+      }
+    },
+    {
+      "creativeId": "cr-025",
+      "name": "Kaizen Digital Puff Print Oversized T-Shirt",
+      "assetType": "product_image",
+      "category": "T-Shirts",
+      "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mst3167-01_1.jpg?v=1764006426",
+      "productUrl": "https://www.snitch.com/men-t-shirts/oversized-graphic-100-cotton-t-shirt-4mst3167-01/8851574653090/buy",
+      "price": 959,
+      "currency": "INR",
+      "adCopy": null,
+      "attributes": null,
+      "source": {
+        "sourceType": "official_product_page",
+        "sourceUrl": "https://www.snitch.com/men-t-shirts/oversized-graphic-100-cotton-t-shirt-4mst3167-01/8851574653090/buy",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "verified",
+        "notes": [
+          "Image appears on the product page.",
+          "Name taken from the product page (was “Kaizen Digital Puff Print Oversized Tee”).",
+          "Listed price read from the product page on 2026-10-26; prices change.",
+          "Earlier researched price (1399) did not match and was replaced.",
+          "Not stated in the product description, so dropped: fit “Oversized Fit”, color “Vintage Black”, fabric “220 GSM Cotton Puff Print”."
+        ]
+      },
+      "candidate": {
+        "price": 1399,
+        "attributes": {
+          "fit": "Oversized Fit",
+          "color": "Vintage Black",
+          "fabric": "220 GSM Cotton Puff Print"
+        },
+        "adCopy": null
+      }
+    },
+    {
+      "creativeId": "cr-026",
+      "name": "Relaxed Fit Stretch Luxe Trousers",
+      "assetType": "product_image",
+      "category": "Trousers",
+      "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4mtlx0017-03_1.jpg?v=1764957928",
+      "productUrl": "https://www.snitch.com/men-trousers/relaxed-fit-stretch-trousers-4mtlx0017-03/8860920610978/buy",
+      "price": 1869,
+      "currency": "INR",
+      "adCopy": null,
+      "attributes": {
+        "fit": "Relaxed Fit"
+      },
+      "source": {
+        "sourceType": "official_product_page",
+        "sourceUrl": "https://www.snitch.com/men-trousers/relaxed-fit-stretch-trousers-4mtlx0017-03/8860920610978/buy",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "verified",
+        "notes": [
+          "Image appears on the product page.",
+          "Listed price read from the product page on 2026-10-26; prices change.",
+          "Earlier researched price (2199) did not match and was replaced.",
+          "Not stated in the product description, so dropped: color “Olive Taupe”, fabric “Luxe Bi-Stretch Poly-Viscose”."
+        ]
+      },
+      "candidate": {
+        "price": 2199,
+        "attributes": {
+          "fit": "Relaxed Fit",
+          "color": "Olive Taupe",
+          "fabric": "Luxe Bi-Stretch Poly-Viscose"
+        },
+        "adCopy": null
+      }
+    },
+    {
+      "creativeId": "cr-027",
+      "name": "Crochet Knit Core Lab Polo T-Shirt",
+      "assetType": "product_image",
+      "category": "T-Shirts / Polos",
+      "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/4MCRT0012-02_9.jpg?v=1782287928",
+      "productUrl": "https://www.snitch.com/men-t-shirts/relaxed-fit-polo-core-lab-crochet-t-shirt-4mcrt0012-02/8814314356898/buy",
+      "price": 1899,
+      "currency": "INR",
+      "adCopy": null,
+      "attributes": null,
+      "source": {
+        "sourceType": "official_product_page",
+        "sourceUrl": "https://www.snitch.com/men-t-shirts/relaxed-fit-polo-core-lab-crochet-t-shirt-4mcrt0012-02/8814314356898/buy",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "verified",
+        "notes": [
+          "Image appears on the product page.",
+          "Listed price read from the product page on 2026-10-26; prices change.",
+          "Earlier researched price (1999) did not match and was replaced.",
+          "Not stated in the product description, so dropped: fit “Relaxed Fit”, color “Ecru / Beige”, fabric “Open Crochet Knit Cotton”."
+        ]
+      },
+      "candidate": {
+        "price": 1999,
+        "attributes": {
+          "fit": "Relaxed Fit",
+          "color": "Ecru / Beige",
+          "fabric": "Open Crochet Knit Cotton"
+        },
+        "adCopy": null
+      }
+    },
+    {
+      "creativeId": "cr-028",
+      "name": "Triumph Black Printed Regular Fit T-Shirt",
+      "assetType": "product_image",
+      "category": "T-Shirts",
+      "assetUrl": "https://cdn.shopify.com/s/files/1/0420/7073/7058/files/1001ea357c74ca3fa869bf48b807616d.jpg?v=1732603846",
+      "productUrl": "https://www.snitch.com/men-t-shirts/triumph-black-printed-slim-fit-t-shirt-4mst2562-01/8546820915362/buy",
+      "price": 999,
+      "currency": "INR",
+      "adCopy": null,
+      "attributes": {
+        "fit": "Regular Fit",
+        "color": "Black"
+      },
+      "source": {
+        "sourceType": "official_product_page",
+        "sourceUrl": "https://www.snitch.com/men-t-shirts/triumph-black-printed-slim-fit-t-shirt-4mst2562-01/8546820915362/buy",
+        "retrievedAt": "2026-10-26T17:38:05.454Z",
+        "verificationStatus": "verified",
+        "notes": [
+          "Image appears on the product page.",
+          "Listed price read from the product page on 2026-10-26; prices change.",
+          "Not stated in the product description, so dropped: fabric “100% Cotton Bio-Washed”."
+        ]
+      },
+      "candidate": {
+        "price": 999,
+        "attributes": {
+          "fit": "Regular Fit",
+          "color": "Black",
+          "fabric": "100% Cotton Bio-Washed"
+        },
+        "adCopy": null
+      }
+    }
+  ],
+  "verificationSummary": {
+    "partially_verified": 13,
+    "unavailable": 1,
+    "verified": 14
+  }
+}
