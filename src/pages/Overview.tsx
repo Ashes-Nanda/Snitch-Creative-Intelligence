@@ -3,11 +3,12 @@ import { ArrowRight } from 'lucide-react'
 import { useDashboard } from '@/app/context'
 import { dateRange, percent, shortDate } from '@/app/format'
 import type { Proposal } from '@/domain/experiments'
-import { peerComparison, rankCreatives, type AttentionItem, type AttentionKind } from '@/domain/review'
+import { peerComparison, rankCreatives, remainingAttentionItems, type AttentionItem, type AttentionKind } from '@/domain/review'
+import { buildOverviewStatus } from '@/domain/statusSentence'
 import { AppShell } from '@/components/AppShell'
 import { WeeklyLineChart } from '@/components/charts'
 import { AnalysisBadge, CreativeThumb, EmptyState, InfoTip, MetricValue, ProposalStatusBadge, StaleBadge, StatusBadge } from '@/components/common'
-import { metricOf, metrics, type MetricKey } from '@/components/metricConfig'
+import { getMetricChangeTone, metricOf, metrics, type MetricKey } from '@/components/metricConfig'
 import { Button } from '@/components/ui/button'
 import { Card, CardAction, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'
@@ -26,6 +27,14 @@ export function Overview() {
 
   const prev = d.previous?.period ?? null
   const previous = d.previous?.view ?? null
+
+  const statusSentence = buildOverviewStatus({
+    currentPeriod: { from: filters.from, to: filters.to },
+    previousPeriod: prev ? { from: prev.from, to: prev.to } : null,
+    review: d.review,
+    analyses: d.analyses,
+    untrackedRevenueCount: view.totals.revenueUntrackedCreativeIds.length,
+  })
 
   return (
     <AppShell title="Overview" description={`SNITCH Creative Intelligence · 28 public brand assets · ${dateRange(filters.from, filters.to)}`} filters="period">
@@ -46,6 +55,10 @@ export function Overview() {
               Campaign metrics: <span className="font-medium text-foreground">Synthetic demo data</span>
             </span>
           </div>
+
+          <p className="text-xs font-medium text-muted-foreground px-0.5" role="status" aria-live="polite">
+            {statusSentence}
+          </p>
 
           <section aria-label="Summary metrics" className="grid grid-cols-2 gap-3 lg:grid-cols-4">
             {summaryKeys.map((k) => (
@@ -80,37 +93,48 @@ export function Overview() {
 function MetricCard({ metric, value, previous, previousLabel, note }: { metric: MetricKey; value: number | null; previous: number | null; previousLabel: string | null; note?: string }) {
   const def = metrics[metric]
   const change = value !== null && previous !== null && previous !== 0 ? (value - previous) / previous : null
-  const isPositive = change !== null && change > 0
-  const isNegative = change !== null && change < 0
+  const tone = getMetricChangeTone(metric, change)
 
   return (
     <Card size="sm" className="relative overflow-hidden transition-all hover:border-foreground/25">
       <CardHeader className="pb-1.5">
         <div className="flex items-center justify-between">
-          <CardDescription className="flex items-center gap-1.5 font-medium">
+          <CardDescription className="flex items-center gap-1.5 text-xs font-medium text-muted-foreground">
             {def.label} <InfoTip text={def.help} label={`What is ${def.label}?`} />
           </CardDescription>
           {change !== null && (
             <span
               className={cn(
                 'inline-flex items-center rounded-full px-2 py-0.5 text-xs font-semibold tabular',
-                isPositive ? 'bg-emerald-500/10 text-emerald-700 dark:text-emerald-400' : isNegative ? 'bg-rose-500/10 text-rose-700 dark:text-rose-400' : 'bg-muted text-muted-foreground'
+                tone === 'good'
+                  ? 'bg-emerald-500/10 text-emerald-700 dark:text-emerald-400'
+                  : tone === 'bad'
+                    ? 'bg-rose-500/10 text-rose-700 dark:text-rose-400'
+                    : 'bg-muted text-muted-foreground'
               )}
-              title={`Compared with ${previousLabel}`}
+              title={previousLabel ? `Compared with ${previousLabel}` : 'Compared with previous period'}
             >
-              {isPositive ? '+' : ''}{(change * 100).toFixed(1)}%
+              {change > 0 ? '+' : ''}{(change * 100).toFixed(1)}%
             </span>
           )}
         </div>
-        <CardTitle className="text-2xl font-bold tracking-tight mt-1">
+        <CardTitle className="text-2xl font-bold tracking-tight text-foreground mt-1">
           <MetricValue value={value} format={def.format} unavailableReason={def.unavailable} />
         </CardTitle>
       </CardHeader>
       <CardContent className="text-xs text-muted-foreground pt-0">
-        {change !== null ? (
-          <span className="text-[11px] text-muted-foreground">vs previous period</span>
+        {previous !== null && previousLabel ? (
+          <div className="flex items-center gap-1 text-[11px] text-muted-foreground">
+            <span>vs {previousLabel}</span>
+            <span className="font-medium text-foreground/80">({def.format(previous)})</span>
+          </div>
+        ) : previous !== null ? (
+          <div className="flex items-center gap-1 text-[11px] text-muted-foreground">
+            <span>vs previous:</span>
+            <span className="font-medium text-foreground/80">{def.format(previous)}</span>
+          </div>
         ) : (
-          <span className="text-[11px] text-muted-foreground">No previous period to compare</span>
+          <span className="text-[11px] text-muted-foreground">No prior period to compare</span>
         )}
         {note && <p className="mt-1 text-[11px] text-amber-800 dark:text-amber-400">{note}</p>}
       </CardContent>
@@ -153,7 +177,9 @@ function RecommendedNextAction() {
       <Card>
         <CardHeader>
           <CardTitle>Recommended next action</CardTitle>
-          <CardDescription>Nothing needs a decision right now. All proposals are reviewed and all creatives meet performance targets.</CardDescription>
+          <CardDescription>
+            No urgent decisions required. All proposals have been reviewed and no creatives are currently flagged for investigation.
+          </CardDescription>
         </CardHeader>
       </Card>
     )
@@ -189,7 +215,7 @@ function RecommendedNextAction() {
         {peers && (
           <div className="rounded-lg bg-muted/50 p-2.5 text-xs text-muted-foreground">
             <span className="font-semibold text-foreground">Evidence: </span>
-            ROAS {metrics.roas.format(peers.roas.creative ?? 0)} vs {peers.roas.peers === null ? '—' : metrics.roas.format(peers.roas.peers)} platform benchmark ({peers.peerIds.length} peer creatives)
+            ROAS {metrics.roas.format(peers.roas.creative ?? 0)} vs {peers.roas.peers === null ? '—' : metrics.roas.format(peers.roas.peers)} peer benchmark ({peers.peerIds.length} peer {peers.peerIds.length === 1 ? 'creative' : 'creatives'})
           </div>
         )}
         <div className="mt-1 flex flex-wrap items-center gap-2">
@@ -220,26 +246,39 @@ const kindLabel: Record<AttentionKind, string> = {
 function AttentionQueue() {
   const d = useDashboard()
   const link = useAttentionLink()
-  const items = d.review?.attention ?? []
+  const allItems = d.review?.attention ?? []
+  const recommended = d.review?.recommended ?? null
+  const items = remainingAttentionItems(allItems, recommended)
+
   return (
     <Card>
-      <CardHeader>
+      <CardHeader className="pb-3">
         <CardTitle>Needs attention</CardTitle>
-        <CardDescription>{items.length === 0 ? 'Nothing needs attention for this selection.' : `${items.length} items, most important first`}</CardDescription>
+        <CardDescription>
+          {items.length === 0
+            ? recommended
+              ? 'No other items need attention. Focus on the recommended action.'
+              : 'No items need attention for this selection.'
+            : `${items.length} remaining item${items.length === 1 ? '' : 's'}`}
+        </CardDescription>
       </CardHeader>
       {items.length > 0 && (
-        <CardContent>
-          <ul className="flex max-h-80 flex-col divide-y overflow-y-auto">
+        <CardContent className="pt-0">
+          <ul className="flex flex-col divide-y">
             {items.map((item) => (
-              <li key={`${item.kind}:${item.targetId}`} className="flex items-start justify-between gap-3 py-2.5">
-                <div className="min-w-0">
-                  <p className="text-sm font-medium">{item.title}</p>
-                  <p className="text-xs text-muted-foreground">{item.detail}</p>
-                  <span className="mt-1 inline-block">
-                    <StatusBadge tone={item.kind === 'review_proposal' ? 'info' : item.kind === 'investigate_creative' ? 'warn' : 'neutral'}>{kindLabel[item.kind]}</StatusBadge>
-                  </span>
+              <li key={`${item.kind}:${item.targetId}`} className="flex items-center justify-between gap-3 py-2.5">
+                <div className="min-w-0 flex-1">
+                  <div className="flex items-center gap-2">
+                    <StatusBadge
+                      tone={item.kind === 'review_proposal' ? 'info' : item.kind === 'investigate_creative' ? 'warn' : 'neutral'}
+                    >
+                      {kindLabel[item.kind]}
+                    </StatusBadge>
+                    <p className="truncate text-xs font-medium text-foreground">{item.title}</p>
+                  </div>
+                  <p className="line-clamp-1 text-[11px] text-muted-foreground mt-0.5">{item.detail}</p>
                 </div>
-                <Button asChild variant="outline" size="sm" className="shrink-0">
+                <Button asChild variant="outline" size="sm" className="h-7 shrink-0 text-xs px-2.5">
                   <a href={link(item)}>{attentionAction[item.kind]}</a>
                 </Button>
               </li>

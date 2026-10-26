@@ -47,3 +47,29 @@ export function metricOf(source: { counts: RawCounts | null; metrics: Metrics },
       return source.metrics[key]
   }
 }
+
+/** Neutral threshold for KPI period-over-period percentage change (±2%). */
+export const KPI_NEUTRAL_THRESHOLD = 0.02
+
+export type MetricChangeTone = 'good' | 'bad' | 'neutral'
+
+/**
+ * Computes the semantic direction tone (good, bad, neutral) for a KPI metric change.
+ * - Spend and metrics with no target (better: null) are kept neutral.
+ * - Changes within ±KPI_NEUTRAL_THRESHOLD (±2%) are neutral.
+ * - For metrics where higher is better: positive change > 2% is good, negative change < -2% is bad.
+ * - For metrics where lower is better (e.g. CPA, CPC): negative change < -2% is good, positive change > 2% is bad.
+ */
+export function getMetricChangeTone(metricKey: MetricKey, change: number | null): MetricChangeTone {
+  if (change === null) return 'neutral'
+  const def = metrics[metricKey]
+  if (!def || def.better === null) return 'neutral'
+  if (Math.abs(change) <= KPI_NEUTRAL_THRESHOLD) return 'neutral'
+  if (def.better === 'higher') {
+    return change > KPI_NEUTRAL_THRESHOLD ? 'good' : 'bad'
+  }
+  if (def.better === 'lower') {
+    return change < -KPI_NEUTRAL_THRESHOLD ? 'good' : 'bad'
+  }
+  return 'neutral'
+}

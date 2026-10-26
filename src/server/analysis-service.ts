@@ -69,13 +69,15 @@ const MAX_BACKOFF_MS = 30_000
 function prompt(c: CreativeToAnalyse): string {
   const kind = c.assetType === 'product_image' ? 'a product image from the SNITCH (Indian menswear brand) website' : 'a public SNITCH (Indian menswear brand) ad creative'
   return [
-    `You are analysing ${kind}. Return JSON matching the schema.`,
-    'Rules:',
-    '- In "observations", describe only what is visible in this image. Do not guess fabric, price, fit names or brand claims you cannot see.',
-    '- Copy visible text verbatim and keep it short. Use null or an empty list when something is absent.',
-    '- "interpretations" is your reading of the likely creative angle; base it on visible details and say which.',
-    '- List anything you cannot establish from the image in "uncertain" (for example fabric, exact colour under lighting, video content beyond this frame).',
-    '- Do not infer audience demographics, performance, sales or any business outcome.',
+    `You are an expert creative intelligence system analysing ${kind}. Return JSON matching the schema.`,
+    'Core Objective: Produce structured, decision-useful intelligence that helps growth teams compare creatives and propose controlled hypotheses without making unsupported claims about performance or audience intent.',
+    'Taxonomy & Classification Rules:',
+    '- visual_hook and message_hook are separate dimensions. For example, if a model is shown with text "DELIVERED IN 60 MINS", visual_hook is "model-led" and message_hook is "delivery benefit". Do NOT classify the entire creative as model-first merely because a person is visible.',
+    '- Distinguish value propositions from promotional offers: delivery speed (e.g. "60-minute delivery") or convenience/styling promise is a value_proposition, NOT a promotional_offer. Set promotional_offer to null unless explicit discount/price/sale wording is visible.',
+    '- For every field, return explicit null or "absent" / "unknown" when not present. Never invent missing information.',
+    '- In "experiment_opportunities", propose 0 to 3 controlled testable hypotheses where only one variable changes (e.g. headline prominence, visual hook, or CTA framing). Label them strictly as hypotheses. Do not predict CTR lift, ROAS, or conversion numbers.',
+    '- In "evidence_and_uncertainty", ground interpretations strictly in visible observations. Clearly list what remains unverified or unknown.',
+    '- Never infer demographics, audience intent, purchase probability, or conversion performance from the image.',
   ].join('\n')
 }
 

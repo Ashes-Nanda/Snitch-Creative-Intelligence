@@ -4,7 +4,7 @@ import type { Proposal } from './experiments'
 import type { Creative, QualityReport } from './ingest'
 import type { SuppressedPattern } from './insights'
 import { computeMetrics } from './metrics'
-import { buildReview, peerComparison, previousPeriod, rankCreatives } from './review'
+import { buildReview, peerComparison, previousPeriod, rankCreatives, remainingAttentionItems } from './review'
 import type { CreativeRow } from './view'
 
 function row(id: string, platform: Creative['platform'], spend: number, revenue: number | null, clicks = 100): CreativeRow {
@@ -32,12 +32,17 @@ function review(overrides: Partial<Parameters<typeof buildReview>[0]> = {}) {
 }
 
 describe('needs investigation', () => {
-  test('flags creatives with at least median platform spend and ROAS 25%+ below the platform pooled ROAS', () => {
-    // Meta pooled ROAS = (4000+3000+2000+500) / (1000+1000+1000+1000) = 2.375; 75% of that = 1.78
-    // Median spend = 1000. Only m4 (ROAS 0.5) qualifies.
+  test('flags creatives with at least median platform spend and ROAS 25%+ below the peer pooled ROAS (excluding self)', () => {
+    // Meta peer pooled ROAS excluding m4 = (4000+3000+2000) / (1000+1000+1000) = 3.00×.
+    // 75% of peer ROAS = 2.25×.
+    // Median spend = 1000. m4 has spend 1000 and ROAS 0.50×.
+    // Percentage below: (1 - 0.50 / 3.00) * 100 = 83.33% -> 83%.
     const rows = [row('m1', 'meta', 1000, 4000), row('m2', 'meta', 1000, 3000), row('m3', 'meta', 1000, 2000), row('m4', 'meta', 1000, 500)]
     const items = review({ rows }).attention.filter((a) => a.kind === 'investigate_creative')
     expect(items.map((a) => a.targetId)).toEqual(['m4'])
+    expect(items[0].detail).toBe(
+      'ROAS 0.50× is 83% below the Meta Ads peer benchmark (3.00×) on above-median spend. Flagging rule: ROAS ≥25% below peer benchmark on above-median spend.',
+    )
   })
 
   test('ignores low-spend creatives and creatives without revenue tracking', () => {
@@ -79,6 +84,20 @@ describe('attention queue', () => {
     const quality = { ...cleanQuality, invalid: [{ kind: 'creative' as const, index: 0, id: 'x', problems: ['name'] }] }
     expect(review({ quality }).recommended).toBeNull()
     expect(review({ quality, proposals: [proposal('p1', 'needs_review')] }).recommended?.targetId).toBe('p1')
+  })
+
+  test('remainingAttentionItems excludes the recommended item to prevent duplicate display', () => {
+    const attention = [
+      { kind: 'review_proposal' as const, targetId: 'p1', title: 'Proposal 1', detail: 'detail' },
+      { kind: 'investigate_creative' as const, targetId: 'm4', title: 'Creative m4', detail: 'detail' },
+    ]
+    const recommended = attention[0]
+    const remaining = remainingAttentionItems(attention, recommended)
+    expect(remaining).toHaveLength(1)
+    expect(remaining[0].targetId).toBe('m4')
+
+    // When no recommendation exists, all attention items remain
+    expect(remainingAttentionItems(attention, null)).toEqual(attention)
   })
 })
 

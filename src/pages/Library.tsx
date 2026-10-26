@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { ArrowDown, ArrowUp, ArrowUpDown, LayoutGrid, Rows3, X } from 'lucide-react'
 import { useDashboard } from '@/app/context'
 import { dateRange } from '@/app/format'
-import type { AnalysisStatus } from '@/domain/analysis'
+import { getCreativeIntelligence, type AnalysisStatus, type CreativeIntelligence } from '@/domain/analysis'
 import { selectView, type CreativeRow, type SortKey } from '@/domain/view'
 import { AnalysisConfigNotice, AnalysisControl, AnalysisStatusBadge } from '@/components/AnalysisControl'
 import { AppShell } from '@/components/AppShell'
@@ -363,10 +363,11 @@ function Compare({ ids, onClose }: { ids: string[]; onClose: () => void }) {
     return row
   })
   const platforms = new Set(rows.map((r) => r.creative.platform))
-  const attr = (r: CreativeRow, key: 'hookType' | 'visualStyle' | 'offerType') => {
+  const intelAttr = (r: CreativeRow, fn: (ci: CreativeIntelligence) => string) => {
     const a = d.analyses.get(r.creative.creativeId)
     if (a?.status !== 'complete') return a?.status === 'failed' ? 'Analysis failed' : 'Not analysed'
-    return a.analysis[key] ?? 'None'
+    const ci = getCreativeIntelligence(a.analysis)
+    return fn(ci)
   }
 
   return (
@@ -406,9 +407,11 @@ function Compare({ ids, onClose }: { ids: string[]; onClose: () => void }) {
             <TableBody>
               {[
                 ['Platform', (r: CreativeRow) => (r.creative.platform === 'meta' ? 'Meta' : 'Google')],
-                ['Hook', (r: CreativeRow) => attr(r, 'hookType')],
-                ['Visual style', (r: CreativeRow) => attr(r, 'visualStyle')],
-                ['Offer', (r: CreativeRow) => attr(r, 'offerType')],
+                ['Visual hook', (r: CreativeRow) => intelAttr(r, (ci) => ci.attributes.visual_hook)],
+                ['Message hook', (r: CreativeRow) => intelAttr(r, (ci) => ci.attributes.message_hook)],
+                ['Visual style', (r: CreativeRow) => intelAttr(r, (ci) => ci.attributes.visual_style)],
+                ['Prominence', (r: CreativeRow) => intelAttr(r, (ci) => ci.attributes.product_prominence)],
+                ['Offer', (r: CreativeRow) => intelAttr(r, (ci) => ci.message_breakdown.promotional_offer ?? 'None')],
               ].map(([label, render]) => (
                 <TableRow key={label as string}>
                   <TableCell className="text-xs text-muted-foreground">{label as string}</TableCell>

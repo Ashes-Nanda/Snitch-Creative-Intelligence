@@ -15,6 +15,13 @@ export interface Decision {
   reason: string | null
 }
 
+export interface ProposalSource {
+  insight: InsightSnapshot | null
+  creativeIds: string[]
+  analysisId?: string | null
+  opportunityTitle?: string | null
+}
+
 export interface Proposal {
   proposalId: string
   title: string
@@ -28,7 +35,7 @@ export interface Proposal {
   successCriteria: string
   notes: string
   /** What the proposal came from. The insight is a snapshot, kept even if the data later changes. */
-  source: { insight: InsightSnapshot | null; creativeIds: string[] }
+  source: ProposalSource
   status: ProposalStatus
   outcome: RecordedOutcome | null
   history: Decision[]
@@ -201,12 +208,24 @@ export function createProposalStore(storage: Storage, { now = () => new Date(), 
      * existing draft instead of creating another.
      */
     createDraft(
-      input: EditableFields & { sourceCreativeIds?: string[]; sourceInsight?: Insight },
+      input: EditableFields & {
+        sourceCreativeIds?: string[]
+        sourceInsight?: Insight
+        sourceAnalysisId?: string | null
+        sourceOpportunityTitle?: string | null
+      },
       key: string,
     ): { ok: true; proposalId: string } | { ok: false; error: string } {
       const proposalId = `draft:${key}`
       if (proposals.some((p) => p.proposalId === proposalId)) return { ok: true, proposalId }
-      const { sourceCreativeIds = [], sourceInsight, ...fields } = input
+      const { sourceCreativeIds = [], sourceInsight, sourceAnalysisId, sourceOpportunityTitle, ...fields } = input
+      const source: ProposalSource = {
+        insight: sourceInsight ? snapshotOf(sourceInsight) : null,
+        creativeIds: sourceCreativeIds,
+      }
+      if (sourceAnalysisId !== undefined) source.analysisId = sourceAnalysisId
+      if (sourceOpportunityTitle !== undefined) source.opportunityTitle = sourceOpportunityTitle
+
       const draft: Proposal = {
         title: '',
         hypothesis: '',
@@ -221,7 +240,7 @@ export function createProposalStore(storage: Storage, { now = () => new Date(), 
         ...(sourceInsight ? proposalFor(sourceInsight) : {}),
         ...fields,
         proposalId,
-        source: { insight: sourceInsight ? snapshotOf(sourceInsight) : null, creativeIds: sourceCreativeIds },
+        source,
         outcome: null,
         status: 'draft',
         history: [{ type: 'created', from: null, to: 'draft', at: now().toISOString(), actor, reason: null }],

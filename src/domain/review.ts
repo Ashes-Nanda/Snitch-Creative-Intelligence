@@ -68,29 +68,37 @@ function needsInvestigation(rows: MeasuredRow[]): AttentionItem[] {
     if (own.length === 0) continue
     const medianSpend = median(own.map((r) => r.counts.spend))
     const tracked = own.filter((r) => r.counts.attributedRevenue !== null)
-    const pooled = computeMetrics({
-      impressions: 0,
-      clicks: 0,
-      conversions: 0,
-      spend: tracked.reduce((s, r) => s + r.counts.spend, 0),
-      attributedRevenue: tracked.reduce((s, r) => s + (r.counts.attributedRevenue ?? 0), 0),
-    }).roas
-    if (pooled === null) continue
     for (const r of own) {
       const roas = r.metrics.roas
-      if (roas === null || r.counts.spend < medianSpend || roas > pooled * (1 - INVESTIGATE_ROAS_GAP)) continue
+      if (roas === null || r.counts.spend < medianSpend) continue
+      const peers = tracked.filter((other) => other.creative.creativeId !== r.creative.creativeId)
+      if (peers.length === 0) continue
+      const peerSpend = peers.reduce((s, p) => s + p.counts.spend, 0)
+      const peerRevenue = peers.reduce((s, p) => s + (p.counts.attributedRevenue ?? 0), 0)
+      if (peerSpend === 0) continue
+      const peerRoas = peerRevenue / peerSpend
+      if (roas > peerRoas * (1 - INVESTIGATE_ROAS_GAP)) continue
+
+      const pctBelow = Math.round((1 - roas / peerRoas) * 100)
+      const ruleThresholdPct = Math.round(INVESTIGATE_ROAS_GAP * 100)
       items.push({
         spend: r.counts.spend,
         item: {
           kind: 'investigate_creative',
           targetId: r.creative.creativeId,
           title: `Investigate ${r.creative.name}`,
-          detail: `ROAS ${roas.toFixed(2)}× is ${Math.round((1 - roas / pooled) * 100)}% below the ${platformLabel[platform]} average (${pooled.toFixed(2)}×) on above-median spend.`,
+          detail: `ROAS ${roas.toFixed(2)}× is ${pctBelow}% below the ${platformLabel[platform]} peer benchmark (${peerRoas.toFixed(2)}×) on above-median spend. Flagging rule: ROAS ≥${ruleThresholdPct}% below peer benchmark on above-median spend.`,
         },
       })
     }
   }
   return items.sort((a, b) => b.spend - a.spend).map((x) => x.item)
+}
+
+/** Returns attention items excluding the recommended item to avoid duplicate display. */
+export function remainingAttentionItems(attention: AttentionItem[], recommended: AttentionItem | null): AttentionItem[] {
+  if (!recommended) return attention
+  return attention.filter((a) => !(a.kind === recommended.kind && a.targetId === recommended.targetId))
 }
 
 function dataQualityItem(q: QualityReport): AttentionItem[] {
